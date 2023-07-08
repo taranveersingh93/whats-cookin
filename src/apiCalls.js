@@ -76,7 +76,7 @@ const isAIEnabled = () => {
   return flagsmith.init({
     environmentID:"KwbANkgyknoDMJgQ4YWxuR",
     onChange: () => {
-        aiEnabled = flagsmith.getState("ai_recipe_pitches").flags.ai_recipe_pitches.value;
+        aiEnabled = flagsmith.getState("ai_recipe_pitches").flags.ai_recipe_pitches.enabled;
     }
   });
 }
@@ -174,7 +174,7 @@ const getChatGPTRecipePitches = (allRecipes) => {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        Authorization: 'Bearer ' + String(aiEnabled),
+        Authorization: 'Bearer ' + flagsmith.getState("ai_recipe_pitches").flags.ai_recipe_pitches.value,
         organization: 'org-47g2m7vnC6yUKCbIL0f7PSFb'
     },
   };
