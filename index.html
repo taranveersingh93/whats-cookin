@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Playfair+Display:wght@400;500&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>Whats Cookin</title>
+  </head>
+  <body>
+    <nav> 
+      <h1> What's cookin? </h1>
+      <form class="nav-child" id="searchArea">
+        <img role="button" tabindex="0" class="nav-icon" id="refreshButton" src="./images/refresh.png" alt="Refresh search"> 
+        <input id="searchBar" type="search" placeholder="Search.." >
+        <img role="button" tabindex="0" class="nav-icon" id="searchBtn" src="./images/search-button.png" alt="Magnifying Glass Icon"> 
+      </form>
+      <div class="nav-child">
+        <img role="button" tabindex="0"  class="nav-icon" id="graphButton" src="./images/graph.png" alt="Recipes graph">
+      </div>
+    </nav>
+    <section class="all-recipes">
+      <section class="choose-view">
+        <section tabindex="0" role="button" class="view-button selected-view" id="our-recipes"> Our Recipes </section>
+        <section tabindex="0" role="button" class="view-button unselected-view" id="your-recipes">Your recipes</section>
+      </section>
+      <div class="tag-scroll-area">        
+        <img tabindex="0" role="button" class="left-arrow arrows hidden" src="./images/left-arrow.png" alt="left arrow button">
+        <section class = "tag-area tag-scrollbar"> 
+          <!-- Tags appear here  -->
+        </section>
+        <img tabindex="0" role="button" class="right-arrow arrows hidden" src="./images/right-arrow.png" alt="right arrow button">
+      </div>
+      <article class="recipe-grid">
+        <!-- grid appears here -->
+      </article>
+      <div class="spinner"></div>
+    </section>
+    <section id="clickedRecipe" class="info-panel hidden">
+      <section class="recipe-details" id="recipeLeftSide">
+        <div class="modal-btn-container">
+          <button class="add add-recipe modal-recipe-btn modal-btn">
+            <img tabindex="0" class="add bookmark-img modal-btn" src="./images/hollow-bookmark-icon.png" id="add">
+          </button>
+          <button class="remove remove-recipe modal-recipe-btn modal-btn hidden">
+            <img tabindex="0" class="remove bookmark-img modal-btn" src="./images/select-bookmark-icon.png" id="remove">
+          </button>
+          <p class="modal-feedback"></p>
+          <img tabindex="1" role="button" class="close-btn" id="closeRecipeSmall" src="./images/delete.png"></img>
+        </div>
+        <div id="recipeName"></div>
+        <article id="recipeInstructions">
+          <!-- recipe instructions will appear here -->
+        </article>
+      </section>
+      <section class="recipe-details" id="recipeRightSide">
+        <img  tabindex="0" role="button" class="close-btn" id="closeRecipe" src="./images/delete.png"></img>
+        <h3>Ingredients</h3>
+        <article tab-index="0" class="ingredients-info">
+          <h4>total ingredient cost: $<span class="recipe-cost"></span></h4>
+          <div class="ingredients-list">
+            <!-- recipe ingredients will appear here  -->
+          </div>
+        </artcile>
+      </section>
+    </section>
+    <section id="graphPanel" class="info-panel hidden">
+      <button id="closeGraphBtn"> 
+        <img tabindex="0" id="closeGraph" class="close-btn" src="./images/delete.png"></img>
+      </button>
+      <div id="chartContainer"></div>
+    </section>
+  </body>
+  <script src="bundle.js"></script>
+</html>
