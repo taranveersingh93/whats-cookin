@@ -1,11 +1,11 @@
 {
-  "homepage": "http://lauraguerra1.github.io/whats-cookin",
+  "homepage": "http://taranveersingh93.github.io/whats-cookin",
   "name": "whats-cookin",
   "version": "1.0.0",
   "description": "Starter kit for Turing FE2 paired project",
   "main": "index.js",
   "repository": {
-    "url": "git+https://github.com/lauraguerra1/whats-cookin.git"
+    "url": "git+https://github.com/taranveersingh93/whats-cookin.git"
   },
   "scripts": {
     "predeploy": "npm run build",

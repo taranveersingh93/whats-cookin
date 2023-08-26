@@ -6,57 +6,57 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "allRecipes": () => (/* binding */ allRecipes),
-/* harmony export */   "allUserRecipes": () => (/* binding */ allUserRecipes),
-/* harmony export */   "body": () => (/* binding */ body),
-/* harmony export */   "chooseView": () => (/* binding */ chooseView),
-/* harmony export */   "clickedRecipe": () => (/* binding */ clickedRecipe),
-/* harmony export */   "getPageRecipes": () => (/* binding */ getPageRecipes),
-/* harmony export */   "getRecipeCard": () => (/* binding */ getRecipeCard),
-/* harmony export */   "graphPanel": () => (/* binding */ graphPanel),
-/* harmony export */   "ingredientsList": () => (/* binding */ ingredientsList),
-/* harmony export */   "leftArrow": () => (/* binding */ leftArrow),
-/* harmony export */   "modalAddBtn": () => (/* binding */ modalAddBtn),
-/* harmony export */   "modalRemoveBtn": () => (/* binding */ modalRemoveBtn),
-/* harmony export */   "nav": () => (/* binding */ nav),
-/* harmony export */   "ourViewBtn": () => (/* binding */ ourViewBtn),
-/* harmony export */   "recipeGrid": () => (/* binding */ recipeGrid),
-/* harmony export */   "rightArrow": () => (/* binding */ rightArrow),
-/* harmony export */   "searchBar": () => (/* binding */ searchBar),
-/* harmony export */   "spinner": () => (/* binding */ spinner),
-/* harmony export */   "tagArea": () => (/* binding */ tagArea),
-/* harmony export */   "yourViewBtn": () => (/* binding */ yourViewBtn)
+/* harmony export */   allRecipes: () => (/* binding */ allRecipes),
+/* harmony export */   allUserRecipes: () => (/* binding */ allUserRecipes),
+/* harmony export */   body: () => (/* binding */ body),
+/* harmony export */   chooseView: () => (/* binding */ chooseView),
+/* harmony export */   clickedRecipe: () => (/* binding */ clickedRecipe),
+/* harmony export */   getPageRecipes: () => (/* binding */ getPageRecipes),
+/* harmony export */   getRecipeCard: () => (/* binding */ getRecipeCard),
+/* harmony export */   graphPanel: () => (/* binding */ graphPanel),
+/* harmony export */   ingredientsList: () => (/* binding */ ingredientsList),
+/* harmony export */   leftArrow: () => (/* binding */ leftArrow),
+/* harmony export */   modalAddBtn: () => (/* binding */ modalAddBtn),
+/* harmony export */   modalRemoveBtn: () => (/* binding */ modalRemoveBtn),
+/* harmony export */   nav: () => (/* binding */ nav),
+/* harmony export */   ourViewBtn: () => (/* binding */ ourViewBtn),
+/* harmony export */   recipeGrid: () => (/* binding */ recipeGrid),
+/* harmony export */   rightArrow: () => (/* binding */ rightArrow),
+/* harmony export */   searchBar: () => (/* binding */ searchBar),
+/* harmony export */   spinner: () => (/* binding */ spinner),
+/* harmony export */   tagArea: () => (/* binding */ tagArea),
+/* harmony export */   yourViewBtn: () => (/* binding */ yourViewBtn)
 /* harmony export */ });
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _domUpdates__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var _recipes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10);
-/* harmony import */ var _images_graph_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(18);
-/* harmony import */ var _images_delete_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(19);
-/* harmony import */ var _images_refresh_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(20);
-/* harmony import */ var _images_antipasti_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(21);
-/* harmony import */ var _images_antipasto_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(22);
-/* harmony import */ var _images_appetizer_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(23);
-/* harmony import */ var _images_breakfast_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(24);
-/* harmony import */ var _images_brunch_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(25);
-/* harmony import */ var _images_condiment_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(26);
-/* harmony import */ var _images_dinner_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(27);
-/* harmony import */ var _images_dip_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(28);
-/* harmony import */ var _images_hor_d_oeuvre_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(29);
-/* harmony import */ var _images_lunch_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(30);
-/* harmony import */ var _images_main_course_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(31);
-/* harmony import */ var _images_main_dish_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(32);
-/* harmony import */ var _images_morning_meal_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(33);
-/* harmony import */ var _images_salad_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(34);
-/* harmony import */ var _images_sauce_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(35);
-/* harmony import */ var _images_side_dish_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(36);
-/* harmony import */ var _images_snack_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(37);
-/* harmony import */ var _images_spread_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(38);
-/* harmony import */ var _images_starter_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(39);
-/* harmony import */ var _images_search_button_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(40);
-/* harmony import */ var _images_right_arrow_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(41);
-/* harmony import */ var _images_left_arrow_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(42);
-/* harmony import */ var _images_hollow_bookmark_icon_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(43);
-/* harmony import */ var _images_select_bookmark_icon_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(44);
+/* harmony import */ var _images_graph_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
+/* harmony import */ var _images_delete_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(18);
+/* harmony import */ var _images_refresh_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(19);
+/* harmony import */ var _images_antipasti_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(20);
+/* harmony import */ var _images_antipasto_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(21);
+/* harmony import */ var _images_appetizer_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(22);
+/* harmony import */ var _images_breakfast_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(23);
+/* harmony import */ var _images_brunch_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(24);
+/* harmony import */ var _images_condiment_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(25);
+/* harmony import */ var _images_dinner_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(26);
+/* harmony import */ var _images_dip_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(27);
+/* harmony import */ var _images_hor_d_oeuvre_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(28);
+/* harmony import */ var _images_lunch_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(29);
+/* harmony import */ var _images_main_course_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(30);
+/* harmony import */ var _images_main_dish_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(31);
+/* harmony import */ var _images_morning_meal_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(32);
+/* harmony import */ var _images_salad_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(33);
+/* harmony import */ var _images_sauce_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(34);
+/* harmony import */ var _images_side_dish_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(35);
+/* harmony import */ var _images_snack_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(36);
+/* harmony import */ var _images_spread_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(37);
+/* harmony import */ var _images_starter_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(38);
+/* harmony import */ var _images_search_button_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(39);
+/* harmony import */ var _images_right_arrow_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(40);
+/* harmony import */ var _images_left_arrow_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(41);
+/* harmony import */ var _images_hollow_bookmark_icon_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(42);
+/* harmony import */ var _images_select_bookmark_icon_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(43);
 /* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(7);
 //IMPORTS
 
@@ -137,7 +137,9 @@ const getRecipeCard = (recipe) => {
 }
 
 const getPageRecipes = () => {
-  const userRecipes = _apiCalls__WEBPACK_IMPORTED_MODULE_30__.currentUser.recipesToCook.map(savedID => _apiCalls__WEBPACK_IMPORTED_MODULE_30__.pageData.allRecipes.find(recipe => recipe.id === savedID));
+  const userRecipes = _apiCalls__WEBPACK_IMPORTED_MODULE_30__.currentUser.recipesToCook
+    .map(savedID => _apiCalls__WEBPACK_IMPORTED_MODULE_30__.pageData.allRecipes
+    .find(recipe => recipe.id === savedID));
 
   const data = {
     'our-recipes': _apiCalls__WEBPACK_IMPORTED_MODULE_30__.pageData.allRecipes,
@@ -603,7 +605,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  font-family: \"Playfair Display\", sans-serif;\n}\n\nbody {\n  background-color: #2c2d30;\n  color: white;\n}\n\n/* Toggle view */\n.choose-view {\n  font-size: 17px;\n  display: flex;\n  width: 30vw;\n  height: 60px;\n  justify-content: space-evenly;\n  align-items: center;\n  border-radius: 25px;\n  margin-bottom: 20px;\n  background-color: rgba(255, 255, 255, 0.1);\n  min-width: 230px;\n}\n\n.view-button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  width: 45%;\n  height: 40px;\n  border-radius: 25px;\n  border: solid 2px rgba(0, 0, 0, 0);\n}\n\n.selected-view {\n  background-color: #242528;\n}\n\n.unselected-view {\n  transition: 0.2s;\n}\n\n.unselected-view:hover {\n  border: solid 2px #242528;\n  cursor: pointer;\n}\n\n/* NAV BAR */\nnav {\n  display: flex;\n  justify-content: space-between;\n}\n\nnav > h1 {\n  text-align: center;\n  margin-left: 25px;\n  cursor: pointer;\n}\n\n.nav-child {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-right: 25px;\n  cursor: pointer;\n}\n\n#searchArea {\n  padding-right: 100px;\n  width: 300px;\n}\n\n#searchBar,\n.nav-icon {\n  height: 1.75rem;\n  background-color: white;\n  opacity: 0.4;\n  border-radius: 50%;\n  margin: 0 2px 0 2px;\n  padding: 5px;\n}\n\n.nav-icon:hover {\n  opacity: 1;\n  transition: 0.2s;\n  transform: scale(1.25);\n}\n\n#searchBar {\n  border-radius: 15px;\n}\n\n/* Tag box */\n.tag-scroll-area {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  max-width: 70vw;\n  cursor: pointer;\n}\n\n.tag-area {\n  background-color: #2c2d30;\n  height: 15vh;\n  border-radius: 15px;\n  display: flex;\n  align-items: center;\n  margin-bottom: 0;\n  overflow-x: auto;\n}\n\n.arrows {\n  height: 1.75rem;\n  margin-left: 1%;\n  margin-right: 1%;\n  opacity: 0.6;\n  cursor: pointer;\n}\n\n.arrows:hover {\n  opacity: 1;\n}\n\n.tag-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s;\n  height: 70%;\n  min-width: 80px;\n  font-size: 12px;\n  margin-right: 2%;\n  cursor: pointer;\n}\n\n.tag-image {\n  height: 6vh;\n  width: auto;\n}\n\n.tag-image-bg {\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  opacity: 0.4;\n  border-radius: 15px;\n  padding: 5px;\n  transition: 0.2s;\n}\n\n.tag-card > .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n  box-shadow: 1px 1px 5px #fbbf83;\n}\n\n#individualRecipeTags .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n}\n\n.tag-text {\n  color: white;\n  opacity: 0.4;\n  margin-top: 4px;\n  text-align: center;\n  max-width: 100%;\n}\n\n.tag-card:hover .tag-image-bg {\n  opacity: 1;\n  box-shadow: 2px 2px 5px rgb(231, 231, 231);\n}\n\n.tag-card:hover .tag-text {\n  opacity: 1;\n}\n\n/* Recipe grid */\n.all-recipes {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.recipe-grid {\n  width: 80%;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.col {\n  display: flex;\n  flex-direction: column;\n  margin: 15px;\n}\n\n.individual-recipe-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.panel {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  height: 4vh;\n  background-color: rgba(67, 68, 72, 0.3764705882);\n  border-radius: 20px;\n  width: 10%;\n  margin-left: 4px;\n  transition: 0.2s;\n}\n\n.panel > h3 {\n  font-size: 13px;\n  border: wheat;\n  height: 0px;\n  width: 0px;\n  transition: 0.2s;\n  visibility: hidden;\n  opacity: 0;\n  font-weight: 100;\n}\n\n.symbol {\n  display: flexbox;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.panel:hover {\n  width: 50%;\n  cursor: pointer;\n  background-color: #66686f;\n}\n\n.panel:hover .symbol {\n  display: none;\n}\n\n.panel:hover h3 {\n  animation: fade-in 0.2s ease-in forwards;\n  width: auto;\n  height: auto;\n}\n\n.grid-feedback {\n  margin-bottom: 3px;\n  margin-top: 3px;\n  opacity: 0;\n}\n\n.individual-recipe {\n  background-color: #35363a;\n  margin-bottom: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-radius: 15px;\n  transition: 0.5s;\n  border: 1px solid gray;\n  position: relative;\n  width: 500px;\n  height: 400px;\n}\n\n.individual-recipe:hover .hover-card {\n  animation: animate-hovercard 0.5s ease-in-out forwards;\n}\n\n.individual-recipe:hover {\n  box-shadow: 2px 2px 20px whitesmoke;\n  cursor: pointer;\n}\n\n.individual-recipe:hover img {\n  transform: scale(0.97);\n  filter: blur(8px);\n}\n\n.individual-recipe:hover h2 {\n  filter: blur(1.5px);\n}\n\n.individual-recipe:hover h3 {\n  animation: fade-in 0.5s ease-in forwards;\n}\n\n@keyframes fade-in-out {\n  0% {\n    opacity: 0;\n  }\n  30% {\n    opacity: 1;\n  }\n  60% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.recipe-image-div {\n  max-width: 85%;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  pointer-events: none;\n}\n\n.recipe-image {\n  height: 100%;\n  width: 100%;\n  border-radius: 15px;\n  transition: 0.5s;\n}\n\n.hover-card {\n  height: 0%;\n  width: 85%;\n  position: absolute;\n  background-color: #ffffff;\n  border-radius: 15px;\n  opacity: 0.4;\n  color: #2c2d30;\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.pitch-text-scroll {\n  font-size: 20px;\n  padding: 0 20px 0 20px;\n  animation: scroll-up 12s linear forwards;\n}\n\n@keyframes scroll-up {\n  from {\n    transform: translateY(15%);\n  }\n  to {\n    transform: translateY(-80%);\n  }\n}\n.spinner:before {\n  content: \"\";\n  display: inline-flex;\n  margin: 2em;\n  padding: 2em;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px solid #f6f;\n  border-top-color: #0e0;\n  border-right-color: #0dd;\n  border-bottom-color: #f90;\n  animation: spinner 0.6s linear infinite;\n}\n\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\nh2 {\n  font-size: 20px;\n  font-weight: 200;\n  transition: 0.5s;\n  text-align: center;\n  margin-left: 6px;\n  margin-right: 6px;\n  pointer-events: none;\n}\n\nh3 {\n  visibility: hidden;\n  opacity: 0;\n}\n\n@keyframes animate-hovercard {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 35%;\n  }\n}\n@keyframes animate-recipe {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 98%;\n  }\n}\n@keyframes fade-in {\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  30% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  60% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n/* Recipe Card */\n.blur {\n  filter: blur(4px);\n}\n\n#graphPanel {\n  flex-direction: column;\n  justify-content: normal;\n  align-items: flex-start;\n}\n\n#chartContainer {\n  height: 85%;\n  width: 100%;\n  position: relative;\n}\n\n.info-panel {\n  position: fixed;\n  justify-content: center;\n  align-items: center;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: 85%;\n  max-height: 95%;\n  border-radius: 50px;\n  background-image: linear-gradient(to right, rgba(83, 90, 114, 0.8), rgba(23, 29, 47, 0.8));\n}\n\n.recipe-details {\n  display: flex;\n  flex-direction: column;\n  height: 97%;\n  padding: 20px;\n}\n\n.individual-recipe-image {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  flex-shrink: 0;\n  width: 200px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 50%;\n  z-index: 1;\n  margin-right: -40px;\n}\n\n.individual-recipe-image img {\n  display: inline;\n  height: 100%;\n  width: auto;\n  margin-left: -20px;\n}\n\n.ingredient-label {\n  color: black;\n  font-family: Lexend;\n  font-size: 20px;\n  padding: 0 0 10px 30px;\n  max-width: 90%;\n}\n\n.ingredient-label:hover {\n  cursor: pointer;\n  transform: scale(1.05);\n}\n\n.ingredient-input {\n  accent-color: rgb(0, 172, 0);\n  transform: scale(2);\n  clip-path: circle(50% at 50% 50%);\n  margin-right: 20px;\n  padding: 10px;\n}\n\ninput[type=checkbox] {\n  accent-color: #fbbf83;\n}\n\n#recipeLeftSide {\n  align-items: center;\n  width: 60%;\n  margin: 10px 0 10px 10px;\n}\n\n#recipeRightSide {\n  width: 40%;\n  max-height: 90%;\n  margin: 10px 10px 10px 0;\n  background-color: #ffffff;\n  border-radius: 50px;\n}\n\n.modal-btn-container {\n  align-self: flex-start;\n  display: flex;\n  width: 25%;\n}\n\n.modal-recipe-btn {\n  align-items: center;\n  background-color: transparent;\n  border: none;\n  height: 7vh;\n}\n\n.modal-btn-container p {\n  color: #fbbf83;\n  font-size: 1em;\n  opacity: 0;\n  min-width: 170px;\n}\n\n.show-feedback {\n  animation: fade-in-out 0.75s linear;\n}\n\n.bookmark-img {\n  height: 80%;\n  width: auto;\n}\n\n.bookmark-img:hover {\n  transform: scale(1.1);\n  cursor: pointer;\n}\n\n#recipeName {\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  align-items: center;\n  max-height: 40%;\n  width: 100%;\n}\n\n#individualRecipeTags {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n\n#recipeName > h1 {\n  font-size: 40px;\n  margin: 0 0 25px;\n  z-index: 2;\n  max-width: 70%;\n  align-self: flex-start;\n}\n\n#recipeInstructions {\n  overflow-y: hidden;\n  font-size: 1.35rem;\n  height: 60%;\n  width: 95%;\n  padding: 10px;\n  border-radius: 25px;\n}\n\n.instructions-header {\n  margin-top: 10px;\n}\n\n.scrollbar {\n  overflow-y: auto;\n  max-height: 80%;\n}\n\n.tag-scrollbar::-webkit-scrollbar, .scrollbar::-webkit-scrollbar {\n  width: 10px;\n  height: 3px;\n  background-color: #3b4154;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {\n  background-color: #fbbf83;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb:hover, .scrollbar::-webkit-scrollbar-thumb:hover {\n  background-color: #faac5f;\n}\n\n.single-instruction-step {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  min-height: 6rem;\n}\n\n.instruction {\n  font-family: Lexend;\n  font-size: smaller;\n  width: 90%;\n}\n\n.step {\n  transform: rotate(-0.25turn);\n  min-width: 6rem;\n  padding: 15px, 0%, 15px;\n  text-align: center;\n  margin: 0;\n  color: #fbbf83;\n  font-family: Lexend;\n  font-size: 1.2rem;\n}\n\n#recipeRightSide h3 {\n  visibility: visible;\n  margin-bottom: 20px;\n  padding-left: 50px;\n  opacity: 100;\n  color: black;\n  font-size: 35px;\n}\n\n#recipeRightSide h4 {\n  color: black;\n  font-size: 25px;\n  margin: 0 10px 15px 35px;\n}\n\n.ingredients-list {\n  overflow-y: auto;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: 2%;\n  overflow-x: hidden;\n}\n\n.close-btn {\n  height: 38px;\n  width: 38px;\n  padding: 20px 20px;\n  margin-left: auto;\n  cursor: pointer;\n}\n\n#closeGraphBtn {\n  background-color: rgba(0, 0, 0, 0);\n  border: none;\n  margin-left: auto;\n}\n\n#closeGraph {\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n  margin-right: 20px;\n  margin-top: 20px;\n  padding: 5px;\n}\n\n#closeGraph:hover {\n  background-color: rgb(255, 255, 255);\n}\n\n#closeRecipeSmall {\n  display: none;\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n}\n\n.fade-in {\n  animation: fade-in 0.75s ease-in forwards, animate-recipe 0.75s ease-in-out forwards;\n}\n\n.flex {\n  display: flex;\n}\n\n.hidden {\n  display: none;\n}\n\n.no-scroll {\n  overflow: hidden;\n}\n\n.no-click {\n  pointer-events: none;\n}\n\n/* MEDIA QUERIES */\n@media screen and (max-width: 2750px) {\n  .individual-recipe {\n    width: 500px;\n    height: 400px;\n  }\n}\n@media screen and (max-width: 1625px) {\n  .individual-recipe {\n    width: 400px;\n    height: 350px;\n  }\n}\n@media screen and (max-width: 1285px) {\n  .individual-recipe {\n    width: 325px;\n    height: 300px;\n  }\n}\n@media screen and (max-width: 1000px) {\n  /* Grid */\n  .individual-recipe {\n    width: 80%;\n    height: 100%;\n  }\n  .individual-recipe-container {\n    align-items: center;\n  }\n  .panel {\n    align-self: flex-start;\n    margin-left: 10%;\n  }\n  /* tags */\n  .tag-card {\n    margin-right: 10%;\n    height: 50%;\n  }\n  .tag-area {\n    overflow-y: hidden;\n  }\n  .tag-area .tag-image {\n    width: 90%;\n    height: 90%;\n  }\n  .tag-scrollbar::-webkit-scrollbar {\n    display: none;\n  }\n  /* recipe modal */\n  #clickedRecipe {\n    flex-direction: column;\n  }\n  #recipeLeftSide {\n    height: 55%;\n    width: 80%;\n  }\n  #recipeRightSide {\n    height: 30%;\n    width: 80%;\n  }\n  #recipeRightSide h3 {\n    padding-top: none;\n    margin-top: 2px;\n    align-self: center;\n  }\n  #individualRecipeTags {\n    display: none;\n  }\n  #recipeName {\n    height: 10%;\n    padding-bottom: 10%;\n  }\n  #closeRecipe {\n    display: none;\n  }\n  #closeRecipeSmall {\n    display: block;\n    padding: 5px;\n  }\n  #closeRecipeSmall:hover {\n    background-color: rgb(255, 255, 255);\n  }\n  .modal-btn-container {\n    display: flex;\n    justify-content: space-between;\n    width: 95%;\n    z-index: 2;\n  }\n  .bookmark-img {\n    height: 70%;\n  }\n  .individual-recipe-image img {\n    display: none;\n  }\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,2CAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;AACF;;AAEA,gBAAA;AACA;EACE,eAAA;EACA,aAAA;EACA,WAAA;EACA,YAAA;EACA,6BAAA;EACA,mBAAA;EACA,mBAAA;EACA,mBAAA;EACA,0CAAA;EACA,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;EACA,UAAA;EACA,YAAA;EACA,mBAAA;EACA,kCAAA;AACF;;AAEA;EACE,yBAAA;AACF;;AAEA;EACE,gBAAA;AACF;;AAEA;EACE,yBAAA;EACA,eAAA;AACF;;AAEA,YAAA;AACA;EACE,aAAA;EACA,8BAAA;AACF;;AAEA;EACE,kBAAA;EACA,iBAAA;EACA,eAAA;AACF;;AAEA;EACE,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,oBAAA;EACA,YAAA;AACF;;AAEA;;EAEE,eAAA;EACA,uBAAA;EACA,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,YAAA;AACF;;AAEA;EACE,UAAA;EACA,gBAAA;EACA,sBAAA;AACF;;AAEA;EACE,mBAAA;AACF;;AAEA,YAAA;AACA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,eAAA;EACA,eAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,mBAAA;EACA,gBAAA;EACA,gBAAA;AACF;;AAEA;EACE,eAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,gBAAA;EACA,WAAA;EACA,eAAA;EACA,eAAA;EACA,gBAAA;EACA,eAAA;AACF;;AAEA;EACE,WAAA;EACA,WAAA;AACF;;AAEA;EACE,uBAAA;EACA,aAAA;EACA,uBAAA;EACA,YAAA;EACA,mBAAA;EACA,YAAA;EACA,gBAAA;AACF;;AAEA;EACE,UAAA;EACA,yBAAA;EACA,+BAAA;AACF;;AAEA;EACE,UAAA;EACA,yBAAA;AACF;;AAEA;EACE,YAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;EACA,0CAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA,gBAAA;AAEA;EACE,aAAA;EACA,mBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,UAAA;EACA,aAAA;EACA,6BAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;AAAF;;AAGA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,eAAA;EACA,WAAA;EACA,gDAAA;EACA,mBAAA;EACA,UAAA;EACA,gBAAA;EACA,gBAAA;AAAF;;AAGA;EACE,eAAA;EACA,aAAA;EACA,WAAA;EACA,UAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;EACA,gBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,UAAA;EACA,eAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,wCAAA;EACA,WAAA;EACA,YAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,UAAA;AAAF;;AAGA;EACE,yBAAA;EACA,mBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;AAAF;;AAGA;EACE,sDAAA;AAAF;;AAGA;EACE,mCAAA;EACA,eAAA;AAAF;;AAGA;EACE,sBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,mBAAA;AAAF;;AAGA;EACE,wCAAA;AAAF;;AAGA;EACE;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;AACF;AAGA;EACE,cAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,oBAAA;AADF;;AAIA;EACE,YAAA;EACA,WAAA;EACA,mBAAA;EACA,gBAAA;AADF;;AAIA;EACE,UAAA;EACA,UAAA;EACA,kBAAA;EACA,yBAAA;EACA,mBAAA;EACA,YAAA;EACA,cAAA;EACA,aAAA;EACA,uBAAA;EACA,uBAAA;EACA,gBAAA;AADF;;AAIA;EACE,eAAA;EACA,sBAAA;EACA,wCAAA;AADF;;AAIA;EACE;IACE,0BAAA;EADF;EAGA;IACE,2BAAA;EADF;AACF;AAIA;EACE,WAAA;EACA,oBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,sBAAA;EACA,sBAAA;EACA,wBAAA;EACA,yBAAA;EACA,uCAAA;AAFF;;AAKA;EACE;IACI,yBAAA;EAFJ;AACF;AAKA;EACE,eAAA;EACA,gBAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;EACA,iBAAA;EACA,oBAAA;AAHF;;AAMA;EACE,kBAAA;EACA,UAAA;AAHF;;AAMA;EACE;IACE,UAAA;EAHF;EAKA;IACE,WAAA;EAHF;AACF;AAMA;EACE;IACE,UAAA;EAJF;EAMA;IACE,WAAA;EAJF;AACF;AAOA;EACE;IACE,kBAAA;IACA,UAAA;EALF;EAOA;IACE,kBAAA;IACA,UAAA;EALF;EAOA;IACE,mBAAA;IACA,UAAA;EALF;EAOA;IACE,mBAAA;IACA,UAAA;EALF;AACF;AAOA,gBAAA;AACA;EACE,iBAAA;AALF;;AAQA;EACE,sBAAA;EACA,uBAAA;EACA,uBAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;EACA,kBAAA;AALF;;AAQA;EACE,eAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;EACA,QAAA;EACA,gCAAA;EACA,UAAA;EACA,eAAA;EACA,mBAAA;EACA,0FAAA;AALF;;AAQA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,aAAA;AALF;;AAQA;EACE,kBAAA;EACA,SAAA;EACA,QAAA;EACA,cAAA;EACA,YAAA;EACA,aAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;EACA,mBAAA;AALF;;AAQA;EACE,eAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;AALF;;AAQA;EACE,YAAA;EACA,mBAAA;EACA,eAAA;EACA,sBAAA;EACA,cAAA;AALF;;AAQA;EACE,eAAA;EACA,sBAAA;AALF;;AAQA;EACE,4BAAA;EACA,mBAAA;EACA,iCAAA;EACA,kBAAA;EACA,aAAA;AALF;;AAQA;EACE,qBAAA;AALF;;AAQA;EACE,mBAAA;EACA,UAAA;EACA,wBAAA;AALF;;AAQA;EACE,UAAA;EACA,eAAA;EACA,wBAAA;EACA,yBAAA;EACA,mBAAA;AALF;;AAQA;EACE,sBAAA;EACA,aAAA;EACA,UAAA;AALF;;AAQA;EACE,mBAAA;EACA,6BAAA;EACA,YAAA;EACA,WAAA;AALF;;AAQA;EACE,cAAA;EACA,cAAA;EACA,UAAA;EACA,gBAAA;AALF;;AAQA;EACE,mCAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;AALF;;AAQA;EACE,qBAAA;EACA,eAAA;AALF;;AAQA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;EACA,mBAAA;EACA,eAAA;EACA,WAAA;AALF;;AAQA;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;AALF;;AAQA;EACE,eAAA;EACA,gBAAA;EACA,UAAA;EACA,cAAA;EACA,sBAAA;AALF;;AAQA;EACE,kBAAA;EACA,kBAAA;EACA,WAAA;EACA,UAAA;EACA,aAAA;EACA,mBAAA;AALF;;AAQA;EACE,gBAAA;AALF;;AAQA;EACE,gBAAA;EACA,eAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;EACA,yBAAA;EACA,kBAAA;AALF;;AAQA;EACE,yBAAA;EACA,kBAAA;AALF;;AAQA;EACE,yBAAA;AALF;;AAQA;EACE,aAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;AALF;;AAQA;EACE,mBAAA;EACA,kBAAA;EACA,UAAA;AALF;;AAQA;EACE,4BAAA;EACA,eAAA;EACA,uBAAA;EACA,kBAAA;EACA,SAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;AALF;;AAQA;EACE,mBAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;AALF;;AAQA;EACE,YAAA;EACA,eAAA;EACA,wBAAA;AALF;;AAQA;EACE,gBAAA;EACA,aAAA;EACA,sBAAA;EACA,kBAAA;EACA,kBAAA;AALF;;AAQA;EACE,YAAA;EACA,WAAA;EACA,kBAAA;EACA,iBAAA;EACA,eAAA;AALF;;AAQA;EACE,kCAAA;EACA,YAAA;EACA,iBAAA;AALF;;AAQA;EACE,4CAAA;EACA,mBAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;AALF;;AAQA;EACE,oCAAA;AALF;;AAQA;EACE,aAAA;EACA,4CAAA;EACA,mBAAA;AALF;;AAQA;EACE,oFAAA;AALF;;AAQA;EACE,aAAA;AALF;;AAQA;EACE,aAAA;AALF;;AAQA;EACE,gBAAA;AALF;;AAQA;EACE,oBAAA;AALF;;AAQA,kBAAA;AACA;EACE;IACE,YAAA;IACA,aAAA;EALF;AACF;AAOA;EACE;IACE,YAAA;IACA,aAAA;EALF;AACF;AAQA;EACE;IACE,YAAA;IACA,aAAA;EANF;AACF;AASA;EAEE,SAAA;EACA;IACE,UAAA;IACA,YAAA;EARF;EAWC;IACG,mBAAA;EATJ;EAYC;IACG,sBAAA;IACA,gBAAA;EAVJ;EAaC,SAAA;EAEA;IACC,iBAAA;IACA,WAAA;EAZF;EAeC;IACC,kBAAA;EAbF;EAgBC;IACC,UAAA;IACA,WAAA;EAdF;EAiBC;IACC,aAAA;EAfF;EAkBC,iBAAA;EACA;IACC,sBAAA;EAhBF;EAmBC;IACC,WAAA;IACA,UAAA;EAjBF;EAoBC;IACC,WAAA;IACA,UAAA;EAlBF;EAqBC;IACC,iBAAA;IACA,eAAA;IACA,kBAAA;EAnBF;EAsBC;IACC,aAAA;EApBF;EAuBC;IACC,WAAA;IACA,mBAAA;EArBF;EAwBC;IACC,aAAA;EAtBF;EAyBC;IACC,cAAA;IACA,YAAA;EAvBF;EA0BC;IACC,oCAAA;EAxBF;EA2BC;IACC,aAAA;IACA,8BAAA;IACA,UAAA;IACA,UAAA;EAzBF;EA4BC;IACC,WAAA;EA1BF;EA6BC;IACC,aAAA;EA3BF;AACF","sourcesContent":["* {\n  font-family: 'Playfair Display', sans-serif;\n}\n\nbody {\n  background-color: #2c2d30;\n  color: white;\n}\n\n/* Toggle view */\n.choose-view {\n  font-size: 17px;\n  display: flex;\n  width: 30vw;\n  height: 60px;\n  justify-content: space-evenly;\n  align-items: center;\n  border-radius: 25px;\n  margin-bottom: 20px;\n  background-color: rgba(255, 255, 255, 0.1);\n  min-width: 230px\n}\n\n.view-button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  width: 45%;\n  height: 40px;\n  border-radius: 25px;\n  border: solid 2px #00000000;\n}\n\n.selected-view {\n  background-color: #242528;\n}\n\n.unselected-view {\n  transition: 0.2s;\n}\n\n.unselected-view:hover {\n  border: solid 2px #242528;\n  cursor: pointer;\n}\n\n/* NAV BAR */\nnav {\n  display: flex;\n  justify-content: space-between;\n}\n\nnav > h1 {\n  text-align: center;\n  margin-left: 25px;\n  cursor: pointer;\n}\n\n.nav-child {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-right: 25px;\n  cursor: pointer;\n}\n\n#searchArea {\n  padding-right: 100px;\n  width: 300px;\n}\n\n#searchBar,\n.nav-icon {\n  height: 1.75rem;\n  background-color: white;\n  opacity: 0.4;\n  border-radius: 50%;\n  margin: 0 2px 0 2px;\n  padding: 5px;\n}\n\n.nav-icon:hover {\n  opacity: 1;\n  transition: .2s;\n  transform: scale(1.25);\n}\n\n#searchBar {\n  border-radius: 15px;\n}\n\n/* Tag box */\n.tag-scroll-area {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  max-width: 70vw;\n  cursor: pointer;\n}\n\n.tag-area {\n  background-color: #2c2d30;\n  height: 15vh;\n  border-radius: 15px;\n  display: flex;\n  align-items: center;\n  margin-bottom: 0;\n  overflow-x: auto; \n}\n\n.arrows {\n  height: 1.75rem;\n  margin-left: 1%;\n  margin-right: 1%;\n  opacity: .6;\n  cursor: pointer;\n}\n\n.arrows:hover {\n  opacity: 1;\n}\n\n.tag-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s;\n  height: 70%;\n  min-width: 80px;\n  font-size: 12px;\n  margin-right: 2%;\n  cursor: pointer;\n}\n\n.tag-image {\n  height: 6vh;\n  width: auto;\n}\n\n.tag-image-bg {\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  opacity: 0.4;\n  border-radius: 15px;\n  padding: 5px;\n  transition: 0.2s;\n}\n\n.tag-card > .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n  box-shadow: 1px 1px 5px #fbbf83;\n}\n\n#individualRecipeTags .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n}\n\n.tag-text {\n  color: white;\n  opacity: 0.4;\n  margin-top: 4px;\n  text-align: center;\n  max-width: 100%;\n}\n\n.tag-card:hover .tag-image-bg {\n  opacity:1;\n  box-shadow: 2px 2px 5px rgb(231, 231, 231);\n}\n\n.tag-card:hover .tag-text {\n  opacity:1\n}\n\n/* Recipe grid */ \n\n.all-recipes {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.recipe-grid {\n  width: 80%;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.col {\n  display: flex;\n  flex-direction: column;\n  margin: 15px;\n}\n\n.individual-recipe-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.panel {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  height: 4vh;\n  background-color: #43444860;\n  border-radius: 20px;\n  width: 10%;    \n  margin-left: 4px;\n  transition: 0.2s;\n}\n\n.panel > h3 {\n  font-size: 13px;\n  border: wheat;  \n  height: 0px;\n  width: 0px;\n  transition: 0.2s;\n  visibility: hidden;\n  opacity: 0;\n  font-weight: 100;\n}\n\n.symbol {\n  display: flexbox;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.panel:hover {\n  width: 50%;\n  cursor: pointer;\n  background-color: #66686f;\n}\n\n.panel:hover .symbol {\n  display: none;\n}\n\n.panel:hover h3 {\n  animation: fade-in 0.2s ease-in forwards;\n  width: auto;\n  height: auto;\n}\n\n.grid-feedback {\n  margin-bottom: 3px;\n  margin-top: 3px;\n  opacity: 0;\n}\n\n.individual-recipe {\n  background-color: #35363a;\n  margin-bottom: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-radius: 15px;\n  transition: 0.5s;\n  border: 1px solid gray;\n  position: relative;\n  width: 500px;\n  height: 400px;\n}\n\n.individual-recipe:hover .hover-card {\n  animation: animate-hovercard 0.5s ease-in-out forwards;\n}\n\n.individual-recipe:hover {\n  box-shadow: 2px 2px 20px whitesmoke;\n  cursor: pointer;\n}\n\n.individual-recipe:hover img {\n  transform: scale(0.97);\n  filter: blur(8px);\n}\n\n.individual-recipe:hover h2 {\n  filter: blur(1.5px);\n}\n\n.individual-recipe:hover h3 {\n  animation: fade-in 0.5s ease-in forwards;\n}\n\n@keyframes fade-in-out {\n  0% {\n    opacity: 0;\n  }\n  30% {\n    opacity: 1;\n  }\n  60% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n\n.recipe-image-div {\n  max-width: 85%;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  pointer-events: none;\n}\n\n.recipe-image {\n  height: 100%;\n  width: 100%;\n  border-radius: 15px;\n  transition: 0.5s;\n}\n\n.hover-card {\n  height: 0%;\n  width: 85%;\n  position: absolute;\n  background-color: #ffffff;\n  border-radius: 15px;\n  opacity: 0.4;\n  color: #2c2d30;\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.pitch-text-scroll {\n  font-size: 20px;\n  padding: 0 20px 0 20px;\n  animation: scroll-up 12s linear forwards;\n}\n\n@keyframes scroll-up {\n  from {\n    transform: translateY(15%);\n  }\n  to {\n    transform: translateY(-80%);\n  }\n}\n\n.spinner:before {\n  content: '';\n  display: inline-flex;\n  margin: 2em;\n  padding: 2em;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px solid #f6f;\n  border-top-color: #0e0;\n  border-right-color: #0dd;\n  border-bottom-color: #f90;\n  animation: spinner .6s linear infinite;\n}\n\n@keyframes spinner {\n  to {\n      transform: rotate(360deg);\n  }\n}\n\nh2 {\n  font-size: 20px;\n  font-weight: 200;\n  transition: 0.5s;\n  text-align: center;\n  margin-left: 6px;\n  margin-right: 6px;\n  pointer-events: none;\n}\n\nh3 {\n  visibility: hidden;\n  opacity: 0;\n}\n\n@keyframes animate-hovercard {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 35%\n  }\n}\n\n@keyframes animate-recipe {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 98%\n  }\n}\n\n@keyframes fade-in {\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  30% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  60% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n/* Recipe Card */\n.blur{\n  filter: blur(4px);\n}\n\n#graphPanel {\n  flex-direction: column;\n  justify-content: normal;\n  align-items: flex-start;\n}\n\n#chartContainer {\n  height: 85%;\n  width: 100%;\n  position: relative;\n}\n\n.info-panel {\n  position: fixed;\n  justify-content: center;\n  align-items: center;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: 85%;\n  max-height: 95%;\n  border-radius: 50px;\n  background-image: linear-gradient(to right, #535a72cc, #171d2fcc);\n}\n\n.recipe-details {\n  display: flex;\n  flex-direction: column;\n  height: 97%;\n  padding: 20px;\n}\n\n.individual-recipe-image {\n  position: absolute;\n  bottom:0;\n  right:0;\n  flex-shrink: 0;\n  width: 200px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 50%;\n  z-index: 1;\n  margin-right: -40px;\n}\n\n.individual-recipe-image img {\n  display: inline;\n  height: 100%;\n  width: auto;\n  margin-left: -20px;\n}\n\n.ingredient-label {\n  color: black;\n  font-family: Lexend;\n  font-size: 20px;\n  padding: 0 0 10px 30px;\n  max-width: 90%;\n}\n\n.ingredient-label:hover {\n  cursor: pointer;\n  transform: scale(1.05);\n}\n\n.ingredient-input {\n  accent-color: rgb(0, 172, 0);\n  transform: scale(2);\n  clip-path: circle(50% at 50% 50%);\n  margin-right: 20px;\n  padding: 10px;\n}\n\ninput[type=checkbox] {\n  accent-color: #fbbf83;\n}\n\n#recipeLeftSide {\n  align-items: center;\n  width: 60%;\n  margin: 10px 0 10px 10px;\n}\n\n#recipeRightSide {\n  width: 40%;\n  max-height: 90%;\n  margin: 10px 10px 10px 0;\n  background-color: #ffffff;\n  border-radius: 50px;\n}\n\n.modal-btn-container {\n  align-self: flex-start;\n  display: flex;\n  width: 25%;\n}\n\n.modal-recipe-btn {\n  align-items: center;\n  background-color: transparent;\n  border: none;\n  height: 7vh;\n}\n\n.modal-btn-container p {\n  color: #fbbf83;\n  font-size: 1em;\n  opacity: 0;\n  min-width: 170px;\n}\n\n.show-feedback {\n  animation: fade-in-out 0.75s linear; \n}\n\n.bookmark-img {\n  height: 80%;\n  width: auto;\n}\n\n.bookmark-img:hover {\n  transform: scale(1.1);\n  cursor: pointer;\n}\n\n#recipeName {\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  align-items: center;\n  max-height: 40%;\n  width: 100%;\n}\n\n#individualRecipeTags {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n\n#recipeName > h1 {\n  font-size: 40px;\n  margin: 0 0 25px;\n  z-index: 2;\n  max-width: 70%;\n  align-self: flex-start;\n}\n\n#recipeInstructions {\n  overflow-y: hidden;\n  font-size: 1.35rem;\n  height: 60%;\n  width: 95%;\n  padding: 10px;\n  border-radius: 25px;\n}\n\n.instructions-header {\n  margin-top: 10px;\n}\n\n.scrollbar {\n  overflow-y: auto;\n  max-height: 80%;\n}\n\n.tag-scrollbar::-webkit-scrollbar, .scrollbar::-webkit-scrollbar {\n  width: 10px;\n  height: 3px;\n  background-color: #3b4154;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {\n  background-color: #fbbf83;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb:hover, .scrollbar::-webkit-scrollbar-thumb:hover {\n  background-color:#faac5f;\n}\n\n.single-instruction-step {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  min-height: 6rem;\n}\n\n.instruction {\n  font-family: Lexend;\n  font-size: smaller;\n  width: 90%;\n}\n\n.step {\n  transform: rotate(-0.25turn);\n  min-width: 6rem;\n  padding: 15px, 0%, 15px;\n  text-align: center;\n  margin: 0;\n  color: #fbbf83;\n  font-family: Lexend;\n  font-size: 1.2rem;\n}\n\n#recipeRightSide h3 {\n  visibility: visible;\n  margin-bottom: 20px;\n  padding-left: 50px;\n  opacity: 100;\n  color: black;\n  font-size: 35px;\n}\n\n#recipeRightSide h4 {\n  color: black;\n  font-size: 25px;\n  margin: 0 10px 15px 35px;\n}\n\n.ingredients-list {\n  overflow-y: auto;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: 2%;\n  overflow-x: hidden;\n}\n\n.close-btn {\n  height: 38px;\n  width: 38px;\n  padding: 20px 20px;\n  margin-left: auto;\n  cursor: pointer;\n}\n\n#closeGraphBtn {\n  background-color: #00000000;\n  border: none;\n  margin-left: auto;\n }\n\n#closeGraph {\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n  margin-right: 20px;\n  margin-top: 20px;\n  padding: 5px;\n}\n\n#closeGraph:hover {\n  background-color: rgb(255, 255, 255);\n}\n\n#closeRecipeSmall {\n  display: none;\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n}\n\n.fade-in {\n  animation: fade-in 0.75s ease-in forwards, animate-recipe .75s ease-in-out forwards;\n}\n\n.flex {\n  display: flex;\n}\n\n.hidden {\n  display: none;\n}\n\n.no-scroll {\n  overflow: hidden;\n}\n\n.no-click {\n  pointer-events: none;\n}\n\n/* MEDIA QUERIES */\n@media screen and (max-width: 2750px) {\n  .individual-recipe{\n    width: 500px;\n    height: 400px;\n  }\n}\n@media screen and (max-width: 1625px) {\n  .individual-recipe {\n    width: 400px;\n    height: 350px;\n   }\n}\n\n@media screen and (max-width: 1285px) {\n  .individual-recipe {\n    width: 325px;\n    height: 300px;\n  }\n}\n\n@media screen and (max-width: 1000px) {\n\n  /* Grid */\n  .individual-recipe {\n    width: 80%;\n    height: 100%;\n   }\n\n   .individual-recipe-container {\n      align-items: center;\n   }\n\n   .panel {\n      align-self: flex-start;\n      margin-left: 10%;\n   }\n\n   /* tags */\n\n   .tag-card {\n    margin-right: 10%;\n    height: 50%;\n   }\n\n   .tag-area {\n    overflow-y: hidden;\n   }\n\n   .tag-area .tag-image {\n    width: 90%;\n    height: 90%;\n   }\n\n   .tag-scrollbar::-webkit-scrollbar {\n    display: none;\n   }\n\n   /* recipe modal */\n   #clickedRecipe {\n    flex-direction: column;\n   }\n\n   #recipeLeftSide {\n    height: 55%;\n    width: 80%;\n   }\n\n   #recipeRightSide {\n    height: 30%;\n    width: 80%;\n   }\n\n   #recipeRightSide h3 {\n    padding-top: none;\n    margin-top: 2px;\n    align-self: center;\n   }\n\n   #individualRecipeTags {\n    display: none;\n   }\n\n   #recipeName {\n    height: 10%;\n    padding-bottom: 10%;\n   }\n\n   #closeRecipe {\n    display: none; \n   }\n\n   #closeRecipeSmall {\n    display: block;\n    padding: 5px;\n   }\n\n   #closeRecipeSmall:hover {\n    background-color: rgb(255, 255, 255);\n   }\n\n   .modal-btn-container {\n    display: flex; \n    justify-content: space-between;\n    width: 95%;\n    z-index: 2;\n   }\n\n   .bookmark-img {\n    height: 70%;\n   }\n\n   .individual-recipe-image img {\n    display: none;\n   }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  font-family: \"Playfair Display\", sans-serif;\n}\n\nbody {\n  background-color: #2c2d30;\n  color: white;\n}\n\n/* Toggle view */\n.choose-view {\n  font-size: 17px;\n  display: flex;\n  width: 30vw;\n  height: 60px;\n  justify-content: space-evenly;\n  align-items: center;\n  border-radius: 25px;\n  margin-bottom: 20px;\n  background-color: rgba(255, 255, 255, 0.1);\n  min-width: 230px;\n}\n\n.view-button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  width: 45%;\n  height: 40px;\n  border-radius: 25px;\n  border: solid 2px rgba(0, 0, 0, 0);\n}\n\n.selected-view {\n  background-color: #242528;\n}\n\n.unselected-view {\n  transition: 0.2s;\n}\n\n.unselected-view:hover {\n  border: solid 2px #242528;\n  cursor: pointer;\n}\n\n/* NAV BAR */\nnav {\n  display: flex;\n  justify-content: space-between;\n}\n\nnav > h1 {\n  text-align: center;\n  margin-left: 25px;\n  cursor: pointer;\n}\n\n.nav-child {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-right: 25px;\n  cursor: pointer;\n}\n\n#searchArea {\n  padding-right: 100px;\n  width: 300px;\n}\n\n#searchBar,\n.nav-icon {\n  height: 1.75rem;\n  background-color: white;\n  opacity: 0.4;\n  border-radius: 50%;\n  margin: 0 2px 0 2px;\n  padding: 5px;\n}\n\n.nav-icon:hover {\n  opacity: 1;\n  transition: 0.2s;\n  transform: scale(1.25);\n}\n\n#searchBar {\n  border-radius: 15px;\n}\n\n/* Tag box */\n.tag-scroll-area {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  max-width: 70vw;\n  cursor: pointer;\n}\n\n.tag-area {\n  background-color: #2c2d30;\n  height: 15vh;\n  border-radius: 15px;\n  display: flex;\n  align-items: center;\n  margin-bottom: 0;\n  overflow-x: auto;\n}\n\n.arrows {\n  height: 1.75rem;\n  margin-left: 1%;\n  margin-right: 1%;\n  opacity: 0.6;\n  cursor: pointer;\n}\n\n.arrows:hover {\n  opacity: 1;\n}\n\n.tag-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s;\n  height: 70%;\n  min-width: 80px;\n  font-size: 12px;\n  margin-right: 2%;\n  cursor: pointer;\n}\n\n.tag-image {\n  height: 6vh;\n  width: auto;\n}\n\n.tag-image-bg {\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  opacity: 0.4;\n  border-radius: 15px;\n  padding: 5px;\n  transition: 0.2s;\n}\n\n.tag-card > .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n  box-shadow: 1px 1px 5px #fbbf83;\n}\n\n#individualRecipeTags .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n}\n\n.tag-text {\n  color: white;\n  opacity: 0.4;\n  margin-top: 4px;\n  text-align: center;\n  max-width: 100%;\n}\n\n.tag-card:hover .tag-image-bg {\n  opacity: 1;\n  box-shadow: 2px 2px 5px rgb(231, 231, 231);\n}\n\n.tag-card:hover .tag-text {\n  opacity: 1;\n}\n\n/* Recipe grid */\n.all-recipes {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.recipe-grid {\n  width: 80%;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.col {\n  display: flex;\n  flex-direction: column;\n  margin: 15px;\n}\n\n.individual-recipe-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.panel {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  height: 4vh;\n  background-color: rgba(67, 68, 72, 0.3764705882);\n  border-radius: 20px;\n  width: 10%;\n  margin-left: 4px;\n  transition: 0.2s;\n}\n\n.panel > h3 {\n  font-size: 13px;\n  border: wheat;\n  height: 0px;\n  width: 0px;\n  transition: 0.2s;\n  visibility: hidden;\n  opacity: 0;\n  font-weight: 100;\n}\n\n.symbol {\n  display: flexbox;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.panel:hover {\n  width: 50%;\n  cursor: pointer;\n  background-color: #66686f;\n}\n\n.panel:hover .symbol {\n  display: none;\n}\n\n.panel:hover h3 {\n  animation: fade-in 0.2s ease-in forwards;\n  width: auto;\n  height: auto;\n}\n\n.grid-feedback {\n  margin-bottom: 3px;\n  margin-top: 3px;\n  opacity: 0;\n}\n\n.individual-recipe {\n  background-color: #35363a;\n  margin-bottom: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-radius: 15px;\n  transition: 0.5s;\n  border: 1px solid gray;\n  position: relative;\n  width: 500px;\n  height: 400px;\n}\n\n.individual-recipe:hover .hover-card {\n  animation: animate-hovercard 0.5s ease-in-out forwards;\n}\n\n.individual-recipe:hover {\n  box-shadow: 2px 2px 20px whitesmoke;\n  cursor: pointer;\n}\n\n.individual-recipe:hover img {\n  transform: scale(0.97);\n  filter: blur(8px);\n}\n\n.individual-recipe:hover h2 {\n  filter: blur(1.5px);\n}\n\n.individual-recipe:hover h3 {\n  animation: fade-in 0.5s ease-in forwards;\n}\n\n@keyframes fade-in-out {\n  0% {\n    opacity: 0;\n  }\n  30% {\n    opacity: 1;\n  }\n  60% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.recipe-image-div {\n  max-width: 85%;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  pointer-events: none;\n}\n\n.recipe-image {\n  height: 100%;\n  width: 100%;\n  border-radius: 15px;\n  transition: 0.5s;\n}\n\n.hover-card {\n  height: 0%;\n  width: 85%;\n  position: absolute;\n  background-color: #ffffff;\n  border-radius: 15px;\n  opacity: 0.4;\n  color: #2c2d30;\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.pitch-text-scroll {\n  font-size: 20px;\n  padding: 0 20px 0 20px;\n  animation: scroll-up 12s linear forwards;\n}\n\n@keyframes scroll-up {\n  from {\n    transform: translateY(15%);\n  }\n  to {\n    transform: translateY(-80%);\n  }\n}\n.spinner:before {\n  content: \"\";\n  display: inline-flex;\n  margin: 2em;\n  padding: 2em;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px solid #f6f;\n  border-top-color: #0e0;\n  border-right-color: #0dd;\n  border-bottom-color: #f90;\n  animation: spinner 0.6s linear infinite;\n}\n\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\nh2 {\n  font-size: 20px;\n  font-weight: 200;\n  transition: 0.5s;\n  text-align: center;\n  margin-left: 6px;\n  margin-right: 6px;\n  pointer-events: none;\n}\n\nh3 {\n  visibility: hidden;\n  opacity: 0;\n}\n\n@keyframes animate-hovercard {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 35%;\n  }\n}\n@keyframes animate-recipe {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 98%;\n  }\n}\n@keyframes fade-in {\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  30% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  60% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n/* Recipe Card */\n.blur {\n  filter: blur(4px);\n}\n\n#graphPanel {\n  flex-direction: column;\n  justify-content: normal;\n  align-items: flex-start;\n}\n\n#chartContainer {\n  height: 85%;\n  width: 100%;\n  position: relative;\n}\n\n.info-panel {\n  position: fixed;\n  justify-content: center;\n  align-items: center;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: 85%;\n  max-height: 95%;\n  border-radius: 50px;\n  background-image: linear-gradient(to right, rgba(83, 90, 114, 0.8), rgba(23, 29, 47, 0.8));\n}\n\n.recipe-details {\n  display: flex;\n  flex-direction: column;\n  height: 97%;\n  padding: 20px;\n}\n\n.individual-recipe-image {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  flex-shrink: 0;\n  width: 200px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 50%;\n  z-index: 1;\n  margin-right: -40px;\n}\n\n.individual-recipe-image img {\n  display: inline;\n  height: 100%;\n  width: auto;\n  margin-left: -20px;\n}\n\n.ingredient-label {\n  color: black;\n  font-family: Lexend;\n  font-size: 20px;\n  padding: 0 0 10px 30px;\n  max-width: 90%;\n}\n\n.ingredient-label:hover {\n  cursor: pointer;\n  transform: scale(1.05);\n}\n\n.ingredient-input {\n  accent-color: rgb(0, 172, 0);\n  transform: scale(2);\n  clip-path: circle(50% at 50% 50%);\n  margin-right: 20px;\n  padding: 10px;\n}\n\ninput[type=checkbox] {\n  accent-color: #fbbf83;\n}\n\n#recipeLeftSide {\n  align-items: center;\n  width: 60%;\n  margin: 10px 0 10px 10px;\n}\n\n#recipeRightSide {\n  width: 40%;\n  max-height: 90%;\n  margin: 10px 10px 10px 0;\n  background-color: #ffffff;\n  border-radius: 50px;\n}\n\n.modal-btn-container {\n  align-self: flex-start;\n  display: flex;\n  width: 25%;\n}\n\n.modal-recipe-btn {\n  align-items: center;\n  background-color: transparent;\n  border: none;\n  height: 7vh;\n}\n\n.modal-btn-container p {\n  color: #fbbf83;\n  font-size: 1em;\n  opacity: 0;\n  min-width: 170px;\n}\n\n.show-feedback {\n  animation: fade-in-out 0.75s linear;\n}\n\n.bookmark-img {\n  height: 80%;\n  width: auto;\n}\n\n.bookmark-img:hover {\n  transform: scale(1.1);\n  cursor: pointer;\n}\n\n#recipeName {\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  align-items: center;\n  max-height: 40%;\n  width: 100%;\n}\n\n#individualRecipeTags {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n\n#recipeName > h1 {\n  font-size: 40px;\n  margin: 0 0 25px;\n  z-index: 2;\n  max-width: 70%;\n  align-self: flex-start;\n}\n\n#recipeInstructions {\n  overflow-y: hidden;\n  font-size: 1.35rem;\n  height: 60%;\n  width: 95%;\n  padding: 10px;\n  border-radius: 25px;\n}\n\n.instructions-header {\n  margin-top: 10px;\n}\n\n.scrollbar {\n  overflow-y: auto;\n  max-height: 80%;\n}\n\n.tag-scrollbar::-webkit-scrollbar, .scrollbar::-webkit-scrollbar {\n  width: 10px;\n  height: 3px;\n  background-color: #3b4154;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {\n  background-color: #fbbf83;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb:hover, .scrollbar::-webkit-scrollbar-thumb:hover {\n  background-color: #faac5f;\n}\n\n.single-instruction-step {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  min-height: 6rem;\n}\n\n.instruction {\n  font-family: Lexend;\n  font-size: smaller;\n  width: 90%;\n}\n\n.step {\n  transform: rotate(-0.25turn);\n  min-width: 6rem;\n  padding: 15px, 0%, 15px;\n  text-align: center;\n  margin: 0;\n  color: #fbbf83;\n  font-family: Lexend;\n  font-size: 1.2rem;\n}\n\n#recipeRightSide h3 {\n  visibility: visible;\n  margin-bottom: 20px;\n  padding-left: 50px;\n  opacity: 100;\n  color: black;\n  font-size: 35px;\n}\n\n#recipeRightSide h4 {\n  color: black;\n  font-size: 25px;\n  margin: 0 10px 15px 35px;\n}\n\n.ingredients-info {\n  overflow-x: hidden;\n  padding-bottom: 2%;\n}\n\n.ingredients-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.close-btn {\n  height: 38px;\n  width: 38px;\n  padding: 20px 20px;\n  margin-left: auto;\n  cursor: pointer;\n}\n\n#closeGraphBtn {\n  background-color: rgba(0, 0, 0, 0);\n  border: none;\n  margin-left: auto;\n}\n\n#closeGraph {\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n  margin-right: 20px;\n  margin-top: 20px;\n  padding: 5px;\n}\n\n#closeGraph:hover {\n  background-color: rgb(255, 255, 255);\n}\n\n#closeRecipeSmall {\n  display: none;\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n}\n\n.fade-in {\n  animation: fade-in 0.75s ease-in forwards, animate-recipe 0.75s ease-in-out forwards;\n}\n\n.flex {\n  display: flex;\n}\n\n.hidden {\n  display: none;\n}\n\n.no-scroll {\n  overflow: hidden;\n}\n\n.no-click {\n  pointer-events: none;\n}\n\n/* MEDIA QUERIES */\n@media screen and (max-width: 2750px) {\n  .individual-recipe {\n    width: 500px;\n    height: 400px;\n  }\n}\n@media screen and (max-width: 1625px) {\n  .individual-recipe {\n    width: 400px;\n    height: 350px;\n  }\n}\n@media screen and (max-width: 1285px) {\n  .individual-recipe {\n    width: 325px;\n    height: 300px;\n  }\n}\n@media screen and (max-width: 1000px) {\n  /* Grid */\n  .individual-recipe {\n    width: 80%;\n    height: 100%;\n  }\n  .individual-recipe-container {\n    align-items: center;\n  }\n  .panel {\n    align-self: flex-start;\n    margin-left: 10%;\n  }\n  /* tags */\n  .tag-card {\n    margin-right: 10%;\n    height: 50%;\n  }\n  .tag-area {\n    overflow-y: hidden;\n  }\n  .tag-area .tag-image {\n    width: 90%;\n    height: 90%;\n  }\n  .tag-scrollbar::-webkit-scrollbar {\n    display: none;\n  }\n  /* recipe modal */\n  #clickedRecipe {\n    flex-direction: column;\n  }\n  #recipeLeftSide {\n    height: 55%;\n    width: 80%;\n  }\n  #recipeRightSide {\n    height: 30%;\n    width: 80%;\n  }\n  #recipeRightSide h3 {\n    padding-top: none;\n    margin-top: 2px;\n    align-self: center;\n  }\n  #individualRecipeTags {\n    display: none;\n  }\n  #recipeName {\n    height: 10%;\n    padding-bottom: 10%;\n  }\n  #closeRecipe {\n    display: none;\n  }\n  #closeRecipeSmall {\n    display: block;\n    padding: 5px;\n  }\n  #closeRecipeSmall:hover {\n    background-color: rgb(255, 255, 255);\n  }\n  .modal-btn-container {\n    display: flex;\n    justify-content: space-between;\n    width: 95%;\n    z-index: 2;\n  }\n  .bookmark-img {\n    height: 70%;\n  }\n  .individual-recipe-image img {\n    display: none;\n  }\n}", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;EACE,2CAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;AACF;;AAEA,gBAAA;AACA;EACE,eAAA;EACA,aAAA;EACA,WAAA;EACA,YAAA;EACA,6BAAA;EACA,mBAAA;EACA,mBAAA;EACA,mBAAA;EACA,0CAAA;EACA,gBAAA;AACF;;AAEA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,UAAA;EACA,UAAA;EACA,YAAA;EACA,mBAAA;EACA,kCAAA;AACF;;AAEA;EACE,yBAAA;AACF;;AAEA;EACE,gBAAA;AACF;;AAEA;EACE,yBAAA;EACA,eAAA;AACF;;AAEA,YAAA;AACA;EACE,aAAA;EACA,8BAAA;AACF;;AAEA;EACE,kBAAA;EACA,iBAAA;EACA,eAAA;AACF;;AAEA;EACE,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,oBAAA;EACA,YAAA;AACF;;AAEA;;EAEE,eAAA;EACA,uBAAA;EACA,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,YAAA;AACF;;AAEA;EACE,UAAA;EACA,gBAAA;EACA,sBAAA;AACF;;AAEA;EACE,mBAAA;AACF;;AAEA,YAAA;AACA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,eAAA;EACA,eAAA;AACF;;AAEA;EACE,yBAAA;EACA,YAAA;EACA,mBAAA;EACA,aAAA;EACA,mBAAA;EACA,gBAAA;EACA,gBAAA;AACF;;AAEA;EACE,eAAA;EACA,eAAA;EACA,gBAAA;EACA,YAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,gBAAA;EACA,WAAA;EACA,eAAA;EACA,eAAA;EACA,gBAAA;EACA,eAAA;AACF;;AAEA;EACE,WAAA;EACA,WAAA;AACF;;AAEA;EACE,uBAAA;EACA,aAAA;EACA,uBAAA;EACA,YAAA;EACA,mBAAA;EACA,YAAA;EACA,gBAAA;AACF;;AAEA;EACE,UAAA;EACA,yBAAA;EACA,+BAAA;AACF;;AAEA;EACE,UAAA;EACA,yBAAA;AACF;;AAEA;EACE,YAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;EACA,eAAA;AACF;;AAEA;EACE,UAAA;EACA,0CAAA;AACF;;AAEA;EACE,UAAA;AACF;;AAEA,gBAAA;AAEA;EACE,aAAA;EACA,mBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,UAAA;EACA,aAAA;EACA,6BAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;AAAF;;AAGA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,eAAA;EACA,WAAA;EACA,gDAAA;EACA,mBAAA;EACA,UAAA;EACA,gBAAA;EACA,gBAAA;AAAF;;AAGA;EACE,eAAA;EACA,aAAA;EACA,WAAA;EACA,UAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;EACA,gBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,UAAA;EACA,eAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,wCAAA;EACA,WAAA;EACA,YAAA;AAAF;;AAGA;EACE,kBAAA;EACA,eAAA;EACA,UAAA;AAAF;;AAGA;EACE,yBAAA;EACA,mBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;EACA,kBAAA;EACA,YAAA;EACA,aAAA;AAAF;;AAGA;EACE,sDAAA;AAAF;;AAGA;EACE,mCAAA;EACA,eAAA;AAAF;;AAGA;EACE,sBAAA;EACA,iBAAA;AAAF;;AAGA;EACE,mBAAA;AAAF;;AAGA;EACE,wCAAA;AAAF;;AAGA;EACE;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;EAEA;IACE,UAAA;EAAF;AACF;AAGA;EACE,cAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,oBAAA;AADF;;AAIA;EACE,YAAA;EACA,WAAA;EACA,mBAAA;EACA,gBAAA;AADF;;AAIA;EACE,UAAA;EACA,UAAA;EACA,kBAAA;EACA,yBAAA;EACA,mBAAA;EACA,YAAA;EACA,cAAA;EACA,aAAA;EACA,uBAAA;EACA,uBAAA;EACA,gBAAA;AADF;;AAIA;EACE,eAAA;EACA,sBAAA;EACA,wCAAA;AADF;;AAIA;EACE;IACE,0BAAA;EADF;EAGA;IACE,2BAAA;EADF;AACF;AAIA;EACE,WAAA;EACA,oBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,sBAAA;EACA,sBAAA;EACA,wBAAA;EACA,yBAAA;EACA,uCAAA;AAFF;;AAKA;EACE;IACI,yBAAA;EAFJ;AACF;AAKA;EACE,eAAA;EACA,gBAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;EACA,iBAAA;EACA,oBAAA;AAHF;;AAMA;EACE,kBAAA;EACA,UAAA;AAHF;;AAMA;EACE;IACE,UAAA;EAHF;EAKA;IACE,WAAA;EAHF;AACF;AAMA;EACE;IACE,UAAA;EAJF;EAMA;IACE,WAAA;EAJF;AACF;AAOA;EACE;IACE,kBAAA;IACA,UAAA;EALF;EAOA;IACE,kBAAA;IACA,UAAA;EALF;EAOA;IACE,mBAAA;IACA,UAAA;EALF;EAOA;IACE,mBAAA;IACA,UAAA;EALF;AACF;AAOA,gBAAA;AACA;EACE,iBAAA;AALF;;AAQA;EACE,sBAAA;EACA,uBAAA;EACA,uBAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;EACA,kBAAA;AALF;;AAQA;EACE,eAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;EACA,QAAA;EACA,gCAAA;EACA,UAAA;EACA,eAAA;EACA,mBAAA;EACA,0FAAA;AALF;;AAQA;EACE,aAAA;EACA,sBAAA;EACA,WAAA;EACA,aAAA;AALF;;AAQA;EACE,kBAAA;EACA,SAAA;EACA,QAAA;EACA,cAAA;EACA,YAAA;EACA,aAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;EACA,mBAAA;AALF;;AAQA;EACE,eAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;AALF;;AAQA;EACE,YAAA;EACA,mBAAA;EACA,eAAA;EACA,sBAAA;EACA,cAAA;AALF;;AAQA;EACE,eAAA;EACA,sBAAA;AALF;;AAQA;EACE,4BAAA;EACA,mBAAA;EACA,iCAAA;EACA,kBAAA;EACA,aAAA;AALF;;AAQA;EACE,qBAAA;AALF;;AAQA;EACE,mBAAA;EACA,UAAA;EACA,wBAAA;AALF;;AAQA;EACE,UAAA;EACA,eAAA;EACA,wBAAA;EACA,yBAAA;EACA,mBAAA;AALF;;AAQA;EACE,sBAAA;EACA,aAAA;EACA,UAAA;AALF;;AAQA;EACE,mBAAA;EACA,6BAAA;EACA,YAAA;EACA,WAAA;AALF;;AAQA;EACE,cAAA;EACA,cAAA;EACA,UAAA;EACA,gBAAA;AALF;;AAQA;EACE,mCAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;AALF;;AAQA;EACE,qBAAA;EACA,eAAA;AALF;;AAQA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;EACA,mBAAA;EACA,eAAA;EACA,WAAA;AALF;;AAQA;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;AALF;;AAQA;EACE,eAAA;EACA,gBAAA;EACA,UAAA;EACA,cAAA;EACA,sBAAA;AALF;;AAQA;EACE,kBAAA;EACA,kBAAA;EACA,WAAA;EACA,UAAA;EACA,aAAA;EACA,mBAAA;AALF;;AAQA;EACE,gBAAA;AALF;;AAQA;EACE,gBAAA;EACA,eAAA;AALF;;AAQA;EACE,WAAA;EACA,WAAA;EACA,yBAAA;EACA,kBAAA;AALF;;AAQA;EACE,yBAAA;EACA,kBAAA;AALF;;AAQA;EACE,yBAAA;AALF;;AAQA;EACE,aAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;AALF;;AAQA;EACE,mBAAA;EACA,kBAAA;EACA,UAAA;AALF;;AAQA;EACE,4BAAA;EACA,eAAA;EACA,uBAAA;EACA,kBAAA;EACA,SAAA;EACA,cAAA;EACA,mBAAA;EACA,iBAAA;AALF;;AAQA;EACE,mBAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;AALF;;AAQA;EACE,YAAA;EACA,eAAA;EACA,wBAAA;AALF;;AAQA;EACE,kBAAA;EACA,kBAAA;AALF;;AAQA;EACE,aAAA;EACA,sBAAA;AALF;;AAQA;EACE,YAAA;EACA,WAAA;EACA,kBAAA;EACA,iBAAA;EACA,eAAA;AALF;;AAQA;EACE,kCAAA;EACA,YAAA;EACA,iBAAA;AALF;;AAQA;EACE,4CAAA;EACA,mBAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;AALF;;AAQA;EACE,oCAAA;AALF;;AAQA;EACE,aAAA;EACA,4CAAA;EACA,mBAAA;AALF;;AAQA;EACE,oFAAA;AALF;;AAQA;EACE,aAAA;AALF;;AAQA;EACE,aAAA;AALF;;AAQA;EACE,gBAAA;AALF;;AAQA;EACE,oBAAA;AALF;;AAQA,kBAAA;AACA;EACE;IACE,YAAA;IACA,aAAA;EALF;AACF;AAOA;EACE;IACE,YAAA;IACA,aAAA;EALF;AACF;AAQA;EACE;IACE,YAAA;IACA,aAAA;EANF;AACF;AASA;EAEE,SAAA;EACA;IACE,UAAA;IACA,YAAA;EARF;EAWC;IACG,mBAAA;EATJ;EAYC;IACG,sBAAA;IACA,gBAAA;EAVJ;EAaC,SAAA;EAEA;IACC,iBAAA;IACA,WAAA;EAZF;EAeC;IACC,kBAAA;EAbF;EAgBC;IACC,UAAA;IACA,WAAA;EAdF;EAiBC;IACC,aAAA;EAfF;EAkBC,iBAAA;EACA;IACC,sBAAA;EAhBF;EAmBC;IACC,WAAA;IACA,UAAA;EAjBF;EAoBC;IACC,WAAA;IACA,UAAA;EAlBF;EAqBC;IACC,iBAAA;IACA,eAAA;IACA,kBAAA;EAnBF;EAsBC;IACC,aAAA;EApBF;EAuBC;IACC,WAAA;IACA,mBAAA;EArBF;EAwBC;IACC,aAAA;EAtBF;EAyBC;IACC,cAAA;IACA,YAAA;EAvBF;EA0BC;IACC,oCAAA;EAxBF;EA2BC;IACC,aAAA;IACA,8BAAA;IACA,UAAA;IACA,UAAA;EAzBF;EA4BC;IACC,WAAA;EA1BF;EA6BC;IACC,aAAA;EA3BF;AACF","sourcesContent":["* {\n  font-family: 'Playfair Display', sans-serif;\n}\n\nbody {\n  background-color: #2c2d30;\n  color: white;\n}\n\n/* Toggle view */\n.choose-view {\n  font-size: 17px;\n  display: flex;\n  width: 30vw;\n  height: 60px;\n  justify-content: space-evenly;\n  align-items: center;\n  border-radius: 25px;\n  margin-bottom: 20px;\n  background-color: rgba(255, 255, 255, 0.1);\n  min-width: 230px\n}\n\n.view-button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  width: 45%;\n  height: 40px;\n  border-radius: 25px;\n  border: solid 2px #00000000;\n}\n\n.selected-view {\n  background-color: #242528;\n}\n\n.unselected-view {\n  transition: 0.2s;\n}\n\n.unselected-view:hover {\n  border: solid 2px #242528;\n  cursor: pointer;\n}\n\n/* NAV BAR */\nnav {\n  display: flex;\n  justify-content: space-between;\n}\n\nnav > h1 {\n  text-align: center;\n  margin-left: 25px;\n  cursor: pointer;\n}\n\n.nav-child {\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  margin-right: 25px;\n  cursor: pointer;\n}\n\n#searchArea {\n  padding-right: 100px;\n  width: 300px;\n}\n\n#searchBar,\n.nav-icon {\n  height: 1.75rem;\n  background-color: white;\n  opacity: 0.4;\n  border-radius: 50%;\n  margin: 0 2px 0 2px;\n  padding: 5px;\n}\n\n.nav-icon:hover {\n  opacity: 1;\n  transition: .2s;\n  transform: scale(1.25);\n}\n\n#searchBar {\n  border-radius: 15px;\n}\n\n/* Tag box */\n.tag-scroll-area {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  max-width: 70vw;\n  cursor: pointer;\n}\n\n.tag-area {\n  background-color: #2c2d30;\n  height: 15vh;\n  border-radius: 15px;\n  display: flex;\n  align-items: center;\n  margin-bottom: 0;\n  overflow-x: auto; \n}\n\n.arrows {\n  height: 1.75rem;\n  margin-left: 1%;\n  margin-right: 1%;\n  opacity: .6;\n  cursor: pointer;\n}\n\n.arrows:hover {\n  opacity: 1;\n}\n\n.tag-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  transition: 0.3s;\n  height: 70%;\n  min-width: 80px;\n  font-size: 12px;\n  margin-right: 2%;\n  cursor: pointer;\n}\n\n.tag-image {\n  height: 6vh;\n  width: auto;\n}\n\n.tag-image-bg {\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  opacity: 0.4;\n  border-radius: 15px;\n  padding: 5px;\n  transition: 0.2s;\n}\n\n.tag-card > .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n  box-shadow: 1px 1px 5px #fbbf83;\n}\n\n#individualRecipeTags .active-bg {\n  opacity: 1;\n  background-color: #fbbf83;\n}\n\n.tag-text {\n  color: white;\n  opacity: 0.4;\n  margin-top: 4px;\n  text-align: center;\n  max-width: 100%;\n}\n\n.tag-card:hover .tag-image-bg {\n  opacity:1;\n  box-shadow: 2px 2px 5px rgb(231, 231, 231);\n}\n\n.tag-card:hover .tag-text {\n  opacity:1\n}\n\n/* Recipe grid */ \n\n.all-recipes {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n}\n\n.recipe-grid {\n  width: 80%;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.col {\n  display: flex;\n  flex-direction: column;\n  margin: 15px;\n}\n\n.individual-recipe-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.panel {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 20px;\n  height: 4vh;\n  background-color: #43444860;\n  border-radius: 20px;\n  width: 10%;    \n  margin-left: 4px;\n  transition: 0.2s;\n}\n\n.panel > h3 {\n  font-size: 13px;\n  border: wheat;  \n  height: 0px;\n  width: 0px;\n  transition: 0.2s;\n  visibility: hidden;\n  opacity: 0;\n  font-weight: 100;\n}\n\n.symbol {\n  display: flexbox;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.panel:hover {\n  width: 50%;\n  cursor: pointer;\n  background-color: #66686f;\n}\n\n.panel:hover .symbol {\n  display: none;\n}\n\n.panel:hover h3 {\n  animation: fade-in 0.2s ease-in forwards;\n  width: auto;\n  height: auto;\n}\n\n.grid-feedback {\n  margin-bottom: 3px;\n  margin-top: 3px;\n  opacity: 0;\n}\n\n.individual-recipe {\n  background-color: #35363a;\n  margin-bottom: 30px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  border-radius: 15px;\n  transition: 0.5s;\n  border: 1px solid gray;\n  position: relative;\n  width: 500px;\n  height: 400px;\n}\n\n.individual-recipe:hover .hover-card {\n  animation: animate-hovercard 0.5s ease-in-out forwards;\n}\n\n.individual-recipe:hover {\n  box-shadow: 2px 2px 20px whitesmoke;\n  cursor: pointer;\n}\n\n.individual-recipe:hover img {\n  transform: scale(0.97);\n  filter: blur(8px);\n}\n\n.individual-recipe:hover h2 {\n  filter: blur(1.5px);\n}\n\n.individual-recipe:hover h3 {\n  animation: fade-in 0.5s ease-in forwards;\n}\n\n@keyframes fade-in-out {\n  0% {\n    opacity: 0;\n  }\n  30% {\n    opacity: 1;\n  }\n  60% {\n    opacity: 1;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n\n.recipe-image-div {\n  max-width: 85%;\n  height: auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  pointer-events: none;\n}\n\n.recipe-image {\n  height: 100%;\n  width: 100%;\n  border-radius: 15px;\n  transition: 0.5s;\n}\n\n.hover-card {\n  height: 0%;\n  width: 85%;\n  position: absolute;\n  background-color: #ffffff;\n  border-radius: 15px;\n  opacity: 0.4;\n  color: #2c2d30;\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  overflow: hidden;\n}\n\n.pitch-text-scroll {\n  font-size: 20px;\n  padding: 0 20px 0 20px;\n  animation: scroll-up 12s linear forwards;\n}\n\n@keyframes scroll-up {\n  from {\n    transform: translateY(15%);\n  }\n  to {\n    transform: translateY(-80%);\n  }\n}\n\n.spinner:before {\n  content: '';\n  display: inline-flex;\n  margin: 2em;\n  padding: 2em;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px solid #f6f;\n  border-top-color: #0e0;\n  border-right-color: #0dd;\n  border-bottom-color: #f90;\n  animation: spinner .6s linear infinite;\n}\n\n@keyframes spinner {\n  to {\n      transform: rotate(360deg);\n  }\n}\n\nh2 {\n  font-size: 20px;\n  font-weight: 200;\n  transition: 0.5s;\n  text-align: center;\n  margin-left: 6px;\n  margin-right: 6px;\n  pointer-events: none;\n}\n\nh3 {\n  visibility: hidden;\n  opacity: 0;\n}\n\n@keyframes animate-hovercard {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 35%\n  }\n}\n\n@keyframes animate-recipe {\n  0% {\n    height: 0%;\n  }\n  100% {\n    height: 98%\n  }\n}\n\n@keyframes fade-in {\n  0% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  30% {\n    visibility: hidden;\n    opacity: 0;\n  }\n  60% {\n    visibility: visible;\n    opacity: 1;\n  }\n  100% {\n    visibility: visible;\n    opacity: 1;\n  }\n}\n/* Recipe Card */\n.blur{\n  filter: blur(4px);\n}\n\n#graphPanel {\n  flex-direction: column;\n  justify-content: normal;\n  align-items: flex-start;\n}\n\n#chartContainer {\n  height: 85%;\n  width: 100%;\n  position: relative;\n}\n\n.info-panel {\n  position: fixed;\n  justify-content: center;\n  align-items: center;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: 85%;\n  max-height: 95%;\n  border-radius: 50px;\n  background-image: linear-gradient(to right, #535a72cc, #171d2fcc);\n}\n\n.recipe-details {\n  display: flex;\n  flex-direction: column;\n  height: 97%;\n  padding: 20px;\n}\n\n.individual-recipe-image {\n  position: absolute;\n  bottom:0;\n  right:0;\n  flex-shrink: 0;\n  width: 200px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 50%;\n  z-index: 1;\n  margin-right: -40px;\n}\n\n.individual-recipe-image img {\n  display: inline;\n  height: 100%;\n  width: auto;\n  margin-left: -20px;\n}\n\n.ingredient-label {\n  color: black;\n  font-family: Lexend;\n  font-size: 20px;\n  padding: 0 0 10px 30px;\n  max-width: 90%;\n}\n\n.ingredient-label:hover {\n  cursor: pointer;\n  transform: scale(1.05);\n}\n\n.ingredient-input {\n  accent-color: rgb(0, 172, 0);\n  transform: scale(2);\n  clip-path: circle(50% at 50% 50%);\n  margin-right: 20px;\n  padding: 10px;\n}\n\ninput[type=checkbox] {\n  accent-color: #fbbf83;\n}\n\n#recipeLeftSide {\n  align-items: center;\n  width: 60%;\n  margin: 10px 0 10px 10px;\n}\n\n#recipeRightSide {\n  width: 40%;\n  max-height: 90%;\n  margin: 10px 10px 10px 0;\n  background-color: #ffffff;\n  border-radius: 50px;\n}\n\n.modal-btn-container {\n  align-self: flex-start;\n  display: flex;\n  width: 25%;\n}\n\n.modal-recipe-btn {\n  align-items: center;\n  background-color: transparent;\n  border: none;\n  height: 7vh;\n}\n\n.modal-btn-container p {\n  color: #fbbf83;\n  font-size: 1em;\n  opacity: 0;\n  min-width: 170px;\n}\n\n.show-feedback {\n  animation: fade-in-out 0.75s linear; \n}\n\n.bookmark-img {\n  height: 80%;\n  width: auto;\n}\n\n.bookmark-img:hover {\n  transform: scale(1.1);\n  cursor: pointer;\n}\n\n#recipeName {\n  display: flex;\n  position: relative;\n  flex-direction: column;\n  align-items: center;\n  max-height: 40%;\n  width: 100%;\n}\n\n#individualRecipeTags {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\n\n#recipeName > h1 {\n  font-size: 40px;\n  margin: 0 0 25px;\n  z-index: 2;\n  max-width: 70%;\n  align-self: flex-start;\n}\n\n#recipeInstructions {\n  overflow-y: hidden;\n  font-size: 1.35rem;\n  height: 60%;\n  width: 95%;\n  padding: 10px;\n  border-radius: 25px;\n}\n\n.instructions-header {\n  margin-top: 10px;\n}\n\n.scrollbar {\n  overflow-y: auto;\n  max-height: 80%;\n}\n\n.tag-scrollbar::-webkit-scrollbar, .scrollbar::-webkit-scrollbar {\n  width: 10px;\n  height: 3px;\n  background-color: #3b4154;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb, .scrollbar::-webkit-scrollbar-thumb {\n  background-color: #fbbf83;\n  border-radius: 5px;\n}\n\n.tag-scrollbar::-webkit-scrollbar-thumb:hover, .scrollbar::-webkit-scrollbar-thumb:hover {\n  background-color:#faac5f;\n}\n\n.single-instruction-step {\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  min-height: 6rem;\n}\n\n.instruction {\n  font-family: Lexend;\n  font-size: smaller;\n  width: 90%;\n}\n\n.step {\n  transform: rotate(-0.25turn);\n  min-width: 6rem;\n  padding: 15px, 0%, 15px;\n  text-align: center;\n  margin: 0;\n  color: #fbbf83;\n  font-family: Lexend;\n  font-size: 1.2rem;\n}\n\n#recipeRightSide h3 {\n  visibility: visible;\n  margin-bottom: 20px;\n  padding-left: 50px;\n  opacity: 100;\n  color: black;\n  font-size: 35px;\n}\n\n#recipeRightSide h4 {\n  color: black;\n  font-size: 25px;\n  margin: 0 10px 15px 35px;\n}\n\n.ingredients-info {\n  overflow-x: hidden;\n  padding-bottom: 2%;\n}\n\n.ingredients-list {\n  display: flex;\n  flex-direction: column;\n}\n\n.close-btn {\n  height: 38px;\n  width: 38px;\n  padding: 20px 20px;\n  margin-left: auto;\n  cursor: pointer;\n}\n\n#closeGraphBtn {\n  background-color: #00000000;\n  border: none;\n  margin-left: auto;\n }\n\n#closeGraph {\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n  margin-right: 20px;\n  margin-top: 20px;\n  padding: 5px;\n}\n\n#closeGraph:hover {\n  background-color: rgb(255, 255, 255);\n}\n\n#closeRecipeSmall {\n  display: none;\n  background-color: rgba(255, 255, 255, 0.438);\n  border-radius: 50px;\n}\n\n.fade-in {\n  animation: fade-in 0.75s ease-in forwards, animate-recipe .75s ease-in-out forwards;\n}\n\n.flex {\n  display: flex;\n}\n\n.hidden {\n  display: none;\n}\n\n.no-scroll {\n  overflow: hidden;\n}\n\n.no-click {\n  pointer-events: none;\n}\n\n/* MEDIA QUERIES */\n@media screen and (max-width: 2750px) {\n  .individual-recipe{\n    width: 500px;\n    height: 400px;\n  }\n}\n@media screen and (max-width: 1625px) {\n  .individual-recipe {\n    width: 400px;\n    height: 350px;\n   }\n}\n\n@media screen and (max-width: 1285px) {\n  .individual-recipe {\n    width: 325px;\n    height: 300px;\n  }\n}\n\n@media screen and (max-width: 1000px) {\n\n  /* Grid */\n  .individual-recipe {\n    width: 80%;\n    height: 100%;\n   }\n\n   .individual-recipe-container {\n      align-items: center;\n   }\n\n   .panel {\n      align-self: flex-start;\n      margin-left: 10%;\n   }\n\n   /* tags */\n\n   .tag-card {\n    margin-right: 10%;\n    height: 50%;\n   }\n\n   .tag-area {\n    overflow-y: hidden;\n   }\n\n   .tag-area .tag-image {\n    width: 90%;\n    height: 90%;\n   }\n\n   .tag-scrollbar::-webkit-scrollbar {\n    display: none;\n   }\n\n   /* recipe modal */\n   #clickedRecipe {\n    flex-direction: column;\n   }\n\n   #recipeLeftSide {\n    height: 55%;\n    width: 80%;\n   }\n\n   #recipeRightSide {\n    height: 30%;\n    width: 80%;\n   }\n\n   #recipeRightSide h3 {\n    padding-top: none;\n    margin-top: 2px;\n    align-self: center;\n   }\n\n   #individualRecipeTags {\n    display: none;\n   }\n\n   #recipeName {\n    height: 10%;\n    padding-bottom: 10%;\n   }\n\n   #closeRecipe {\n    display: none; \n   }\n\n   #closeRecipeSmall {\n    display: block;\n    padding: 5px;\n   }\n\n   #closeRecipeSmall:hover {\n    background-color: rgb(255, 255, 255);\n   }\n\n   .modal-btn-container {\n    display: flex; \n    justify-content: space-between;\n    width: 95%;\n    z-index: 2;\n   }\n\n   .bookmark-img {\n    height: 70%;\n   }\n\n   .individual-recipe-image img {\n    display: none;\n   }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -729,36 +731,36 @@ module.exports = function (cssWithMappingToString) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "checkIfModalOpen": () => (/* binding */ checkIfModalOpen),
-/* harmony export */   "closePanel": () => (/* binding */ closePanel),
-/* harmony export */   "displayTaggedRecipes": () => (/* binding */ displayTaggedRecipes),
-/* harmony export */   "enableScrollPitchText": () => (/* binding */ enableScrollPitchText),
-/* harmony export */   "findRecipe": () => (/* reexport safe */ _recipes__WEBPACK_IMPORTED_MODULE_2__.findRecipe),
-/* harmony export */   "hideSpinner": () => (/* binding */ hideSpinner),
-/* harmony export */   "openInfoPanel": () => (/* binding */ openInfoPanel),
-/* harmony export */   "pageLoadRenders": () => (/* binding */ pageLoadRenders),
-/* harmony export */   "renderActiveTag": () => (/* binding */ renderActiveTag),
-/* harmony export */   "renderGrid": () => (/* binding */ renderGrid),
-/* harmony export */   "renderRecipesOfInterest": () => (/* binding */ renderRecipesOfInterest),
-/* harmony export */   "renderTagArea": () => (/* binding */ renderTagArea),
-/* harmony export */   "renderTagsAfterFetch": () => (/* binding */ renderTagsAfterFetch),
-/* harmony export */   "resetSearch": () => (/* binding */ resetSearch),
-/* harmony export */   "searchForRecipes": () => (/* binding */ searchForRecipes),
-/* harmony export */   "showError": () => (/* binding */ showError),
-/* harmony export */   "showFeedback": () => (/* binding */ showFeedback),
-/* harmony export */   "showRecipe": () => (/* binding */ showRecipe),
-/* harmony export */   "switchView": () => (/* binding */ switchView),
-/* harmony export */   "toggleSavedButtons": () => (/* binding */ toggleSavedButtons),
-/* harmony export */   "toggleTagData": () => (/* binding */ toggleTagData),
-/* harmony export */   "updateRecipesFromGrid": () => (/* binding */ updateRecipesFromGrid),
-/* harmony export */   "updateRecipesFromModal": () => (/* binding */ updateRecipesFromModal),
-/* harmony export */   "updateSaveButtons": () => (/* binding */ updateSaveButtons)
+/* harmony export */   checkIfModalOpen: () => (/* binding */ checkIfModalOpen),
+/* harmony export */   closePanel: () => (/* binding */ closePanel),
+/* harmony export */   displayTaggedRecipes: () => (/* binding */ displayTaggedRecipes),
+/* harmony export */   enableScrollPitchText: () => (/* binding */ enableScrollPitchText),
+/* harmony export */   findRecipe: () => (/* reexport safe */ _recipes__WEBPACK_IMPORTED_MODULE_2__.findRecipe),
+/* harmony export */   hideSpinner: () => (/* binding */ hideSpinner),
+/* harmony export */   openInfoPanel: () => (/* binding */ openInfoPanel),
+/* harmony export */   pageLoadRenders: () => (/* binding */ pageLoadRenders),
+/* harmony export */   renderActiveTag: () => (/* binding */ renderActiveTag),
+/* harmony export */   renderGrid: () => (/* binding */ renderGrid),
+/* harmony export */   renderRecipesOfInterest: () => (/* binding */ renderRecipesOfInterest),
+/* harmony export */   renderTagArea: () => (/* binding */ renderTagArea),
+/* harmony export */   renderTagsAfterFetch: () => (/* binding */ renderTagsAfterFetch),
+/* harmony export */   resetSearch: () => (/* binding */ resetSearch),
+/* harmony export */   searchForRecipes: () => (/* binding */ searchForRecipes),
+/* harmony export */   showError: () => (/* binding */ showError),
+/* harmony export */   showFeedback: () => (/* binding */ showFeedback),
+/* harmony export */   showRecipe: () => (/* binding */ showRecipe),
+/* harmony export */   switchView: () => (/* binding */ switchView),
+/* harmony export */   toggleSavedButtons: () => (/* binding */ toggleSavedButtons),
+/* harmony export */   toggleTagData: () => (/* binding */ toggleTagData),
+/* harmony export */   updateRecipesFromGrid: () => (/* binding */ updateRecipesFromGrid),
+/* harmony export */   updateRecipesFromModal: () => (/* binding */ updateRecipesFromModal),
+/* harmony export */   updateSaveButtons: () => (/* binding */ updateSaveButtons)
 /* harmony export */ });
 /* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
 /* harmony import */ var _scripts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var _recipes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10);
 /* harmony import */ var _users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
-/* harmony import */ var _clickChart__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(13);
+/* harmony import */ var _clickChart__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12);
 /* harmony import */ var _helper_functions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9);
 // Imports
 
@@ -1043,9 +1045,9 @@ const showRecipe = (recipeCard) => {
   populateRecipeHeader(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard);
   populateInstructions(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard);
   populateIngredients(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard);
+  animateIngredientsTotal(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard.price);
   updateSaveButtons(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard.id, _scripts__WEBPACK_IMPORTED_MODULE_1__.modalAddBtn, _scripts__WEBPACK_IMPORTED_MODULE_1__.modalRemoveBtn, _apiCalls__WEBPACK_IMPORTED_MODULE_0__.currentUser);
   openInfoPanel(recipeCard);
-  animateIngredientsTotal(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard.price);
   (0,_apiCalls__WEBPACK_IMPORTED_MODULE_0__.patchHits)(_apiCalls__WEBPACK_IMPORTED_MODULE_0__.pageData.currentRecipeCard)
 };
 
@@ -1106,6 +1108,7 @@ const populateIngredients = currentRecipeCard => {
 };
 
 const createIngredientsHTML = ingredients => {
+  _scripts__WEBPACK_IMPORTED_MODULE_1__.ingredientsList.innerHTML = '';
   ingredients.forEach((ingredient, i) => {
     let ingredientLabelName = `ingredient${i}`
     _scripts__WEBPACK_IMPORTED_MODULE_1__.ingredientsList.innerHTML += `
@@ -1259,22 +1262,20 @@ const hideSpinner = () => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "currentUser": () => (/* binding */ currentUser),
-/* harmony export */   "loadData": () => (/* binding */ loadData),
-/* harmony export */   "pageData": () => (/* binding */ pageData),
-/* harmony export */   "patchHits": () => (/* binding */ patchHits),
-/* harmony export */   "updateCurrentUser": () => (/* binding */ updateCurrentUser),
-/* harmony export */   "updateServerRecipe": () => (/* binding */ updateServerRecipe)
+/* harmony export */   currentUser: () => (/* binding */ currentUser),
+/* harmony export */   loadData: () => (/* binding */ loadData),
+/* harmony export */   pageData: () => (/* binding */ pageData),
+/* harmony export */   patchHits: () => (/* binding */ patchHits),
+/* harmony export */   updateCurrentUser: () => (/* binding */ updateCurrentUser),
+/* harmony export */   updateServerRecipe: () => (/* binding */ updateServerRecipe)
 /* harmony export */ });
 /* harmony import */ var _users__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8);
 /* harmony import */ var _domUpdates__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var _helper_functions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9);
 /* harmony import */ var _recipes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(10);
-/* harmony import */ var _config_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
-/* harmony import */ var flagsmith__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(12);
-/* harmony import */ var flagsmith__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(flagsmith__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var flagsmith__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+/* harmony import */ var flagsmith__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(flagsmith__WEBPACK_IMPORTED_MODULE_4__);
 //IMPORTS 
-
 
 
 
@@ -1336,14 +1337,15 @@ const handleRecipeData = recipes => {
     } else {
       preparePageRender();
     }
-  });
+  }
+  );
 }
 
 const isAIEnabled = () => {
-  return flagsmith__WEBPACK_IMPORTED_MODULE_5___default().init({
+  return flagsmith__WEBPACK_IMPORTED_MODULE_4___default().init({
     environmentID:"KwbANkgyknoDMJgQ4YWxuR",
     onChange: () => {
-        aiEnabled = flagsmith__WEBPACK_IMPORTED_MODULE_5___default().getState("ai_recipe_pitches").flags.ai_recipe_pitches.enabled;
+        aiEnabled = flagsmith__WEBPACK_IMPORTED_MODULE_4___default().getState("ai_recipe_pitches").flags.ai_recipe_pitches.enabled;
     }
   });
 }
@@ -1441,7 +1443,7 @@ const getChatGPTRecipePitches = (allRecipes) => {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
-        Authorization: 'Bearer ' + String(_config_js__WEBPACK_IMPORTED_MODULE_4__.config.OPENAI_API_KEY),
+        Authorization: 'Bearer ' + flagsmith__WEBPACK_IMPORTED_MODULE_4___default().getState("ai_recipe_pitches").flags.ai_recipe_pitches.value,
         organization: 'org-47g2m7vnC6yUKCbIL0f7PSFb'
     },
   };
@@ -1467,8 +1469,8 @@ const getChatGPTRecipePitches = (allRecipes) => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getRandomUser": () => (/* binding */ getRandomUser),
-/* harmony export */   "updateRecipesToCook": () => (/* binding */ updateRecipesToCook)
+/* harmony export */   getRandomUser: () => (/* binding */ getRandomUser),
+/* harmony export */   updateRecipesToCook: () => (/* binding */ updateRecipesToCook)
 /* harmony export */ });
 /* harmony import */ var _helper_functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
 /* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
@@ -1512,10 +1514,10 @@ const updateRecipesToCook = (e, recipe, change) => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "copyItem": () => (/* binding */ copyItem),
-/* harmony export */   "getIngredientProperty": () => (/* binding */ getIngredientProperty),
-/* harmony export */   "getRandomIndex": () => (/* binding */ getRandomIndex),
-/* harmony export */   "toggleViewBtns": () => (/* binding */ toggleViewBtns)
+/* harmony export */   copyItem: () => (/* binding */ copyItem),
+/* harmony export */   getIngredientProperty: () => (/* binding */ getIngredientProperty),
+/* harmony export */   getRandomIndex: () => (/* binding */ getRandomIndex),
+/* harmony export */   toggleViewBtns: () => (/* binding */ toggleViewBtns)
 /* harmony export */ });
 const copyItem = item => JSON.parse(JSON.stringify(item))
 
@@ -1545,22 +1547,22 @@ const toggleViewBtns = elements => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "addInfoToTags": () => (/* binding */ addInfoToTags),
-/* harmony export */   "calculateRecipeCost": () => (/* binding */ calculateRecipeCost),
-/* harmony export */   "checkSavedStatus": () => (/* binding */ checkSavedStatus),
-/* harmony export */   "filterRecipesByIngredient": () => (/* binding */ filterRecipesByIngredient),
-/* harmony export */   "filterRecipesByName": () => (/* binding */ filterRecipesByName),
-/* harmony export */   "filterRecipesByTag": () => (/* binding */ filterRecipesByTag),
-/* harmony export */   "filterTagsByTagName": () => (/* binding */ filterTagsByTagName),
-/* harmony export */   "findRecipe": () => (/* binding */ findRecipe),
-/* harmony export */   "fixIngredientAmount": () => (/* binding */ fixIngredientAmount),
-/* harmony export */   "getIngredientAmounts": () => (/* binding */ getIngredientAmounts),
-/* harmony export */   "getIngredients": () => (/* binding */ getIngredients),
-/* harmony export */   "getInstructions": () => (/* binding */ getInstructions),
-/* harmony export */   "getUniqueTagsFromRecipes": () => (/* binding */ getUniqueTagsFromRecipes),
-/* harmony export */   "populateTags": () => (/* binding */ populateTags),
-/* harmony export */   "searchRecipes": () => (/* binding */ searchRecipes),
-/* harmony export */   "sortByHits": () => (/* binding */ sortByHits)
+/* harmony export */   addInfoToTags: () => (/* binding */ addInfoToTags),
+/* harmony export */   calculateRecipeCost: () => (/* binding */ calculateRecipeCost),
+/* harmony export */   checkSavedStatus: () => (/* binding */ checkSavedStatus),
+/* harmony export */   filterRecipesByIngredient: () => (/* binding */ filterRecipesByIngredient),
+/* harmony export */   filterRecipesByName: () => (/* binding */ filterRecipesByName),
+/* harmony export */   filterRecipesByTag: () => (/* binding */ filterRecipesByTag),
+/* harmony export */   filterTagsByTagName: () => (/* binding */ filterTagsByTagName),
+/* harmony export */   findRecipe: () => (/* binding */ findRecipe),
+/* harmony export */   fixIngredientAmount: () => (/* binding */ fixIngredientAmount),
+/* harmony export */   getIngredientAmounts: () => (/* binding */ getIngredientAmounts),
+/* harmony export */   getIngredients: () => (/* binding */ getIngredients),
+/* harmony export */   getInstructions: () => (/* binding */ getInstructions),
+/* harmony export */   getUniqueTagsFromRecipes: () => (/* binding */ getUniqueTagsFromRecipes),
+/* harmony export */   populateTags: () => (/* binding */ populateTags),
+/* harmony export */   searchRecipes: () => (/* binding */ searchRecipes),
+/* harmony export */   sortByHits: () => (/* binding */ sortByHits)
 /* harmony export */ });
 /* harmony import */ var _helper_functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9);
 
@@ -1680,38 +1682,22 @@ const sortByHits = recipes => {
 
 /***/ }),
 /* 11 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "config": () => (/* binding */ config)
-/* harmony export */ });
-const config = {
-  OPENAI_API_KEY: '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',
-  WHATS_COOKIN_API: 'http://localhost:3001'
-}
-
-
-
-/***/ }),
-/* 12 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-!function(t,e){ true?e(exports):0}(this,(function(t){"use strict";var e={};Object.defineProperty(e,"__esModule",{value:!0});var n=function(t,e){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return function(t,e){var n=[],i=!0,r=!1,a=void 0;try{for(var o,s=t[Symbol.iterator]();!(i=(o=s.next()).done)&&(n.push(o.value),!e||n.length!==e);i=!0);}catch(t){r=!0,a=t}finally{try{!i&&s.return&&s.return()}finally{if(r)throw a}}return n}(t,e);throw new TypeError("Invalid attempt to destructure non-iterable instance")},i={getItem:function(t,e){return i.multiGet([t]).then((function(t){return t[0][1]})).then((function(t){return e&&e(null,t),t})).catch((function(t){return e&&e(t,null),t}))},setItem:function(t,e,n){return i.multiSet([[t,e]]).then((function(t){return n&&n(null,t),t})).catch((function(t){return n&&n(t,null),t}))},getAllKeys:function(t){return Promise.resolve(Object.keys(localStorage)).then((function(e){return t&&t(null,e),e})).catch((function(e){return t&&t(e,null),e}))},removeItem:function(t,e){return i.multiRemove([t]).then((function(){e&&e(null)})).catch((function(t){e&&e(t,null)}))},clear:function(){return new Promise((function(t){window.localStorage.clear(),t()}))},multiGet:function(t){return new Promise((function(e){e(t.reduce((function(t,e){return t.concat([[e,localStorage.getItem(e)]])}),[]))}))},multiSet:function(t){return new Promise((function(e,i){var r=[];return t.forEach((function(t){var e=n(t,2),i=e[0],a=e[1];try{localStorage.setItem(i,a)}catch(t){r.push(t)}})),r.length>0?i(r):e()}))},multiRemove:function(t){return new Promise((function(e){t.forEach((function(t){return window.localStorage.removeItem(t)})),e()}))},flushGetRequests:function(){console.warn("AsyncStorage.flushGetRequests: Not supported on `web`")}},r=e.default=i,a=function(){return a=Object.assign||function(t){for(var e,n=1,i=arguments.length;n<i;n++)for(var r in e=arguments[n])Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r]);return t},a.apply(this,arguments)};function o(t,e,n){if(n||2===arguments.length)for(var i,r=0,a=e.length;r<a;r++)!i&&r in e||(i||(i=Array.prototype.slice.call(e,0,r)),i[r]=e[r]);return t.concat(i||Array.prototype.slice.call(e))}var s,l,u=function t(e,n){if(e===n)return!0;if(e&&n&&"object"==typeof e&&"object"==typeof n){if(e.constructor!==n.constructor)return!1;var i,r,a;if(Array.isArray(e)){if((i=e.length)!=n.length)return!1;for(r=i;0!=r--;)if(!t(e[r],n[r]))return!1;return!0}if(e.constructor===RegExp)return e.source===n.source&&e.flags===n.flags;if(e.valueOf!==Object.prototype.valueOf)return e.valueOf()===n.valueOf();if(e.toString!==Object.prototype.toString)return e.toString()===n.toString();if((i=(a=Object.keys(e)).length)!==Object.keys(n).length)return!1;for(r=i;0!=r--;)if(!Object.prototype.hasOwnProperty.call(n,a[r]))return!1;for(r=i;0!=r--;){var o=a[r];if(!t(e[o],n[o]))return!1}return!0}return e!=e&&n!=n},c=null,h="BULLET_TRAIN_DB",g="BULLET_TRAIN_EVENT",f="https://edge.api.flagsmith.com/api/v1/",v=function(t){return"Attempted to "+t+" a user before calling flagsmith.init. Call flagsmith.init first, if you wish to prevent it sending a request for flags, call init with preventFetch:true."},d="flagsmith_value_",p="flagsmith_enabled_",m="flagsmith_trait_",y=function(){function t(t){var e=this;this.timestamp=null,this.isLoading=!1,this.eventSource=null,this.getJSON=function(t,n,i){var r=e,a=r.environmentID,o=r.headers,l={method:n||"GET",body:i,headers:{"x-environment-key":"".concat(a)}};return n&&"GET"!==n&&(l.headers["Content-Type"]="application/json; charset=utf-8"),o&&Object.assign(l.headers,o),s||console.error("Flagsmith: fetch is undefined, please specify a fetch implementation into flagsmith.init to support SSR."),s(t,l).then((function(i){var r,a=null===(r=i.headers)||void 0===r?void 0:r.get("x-flagsmith-document-updated-at");if(a)try{var o=parseFloat(a);if(isNaN(o))throw"Failed to parse x-flagsmith-document-updated-at";e.timestamp=o}catch(t){e.log(t,"Failed to parse x-flagsmith-document-updated-at",a)}return e.log("Fetch response: "+i.status+" "+(n||"GET")+0+t),i.text().then((function(t){var e=t;try{e=JSON.parse(t)}catch(t){}return i.status&&i.status>=200&&i.status<300?e:Promise.reject(e)}))})).catch((function(t){throw console.error("Flagsmith: Fetch error: "+t),new Error("Flagsmith: Fetch error:"+t)}))},this.getFlags=function(t,n){var i=e,r=i.onChange,o=i.onError,s=i.identity,l=i.api,c=!1;e.log("Get Flags"),e.isLoading=!0;var h=function(t){var n=t.flags,i=t.traits;e.isLoading=!1,s&&(e.withTraits=null);var o={},l={};i=i||[],(n=n||[]).forEach((function(t){o[t.feature.name.toLowerCase().replace(/ /g,"_")]={id:t.feature.id,enabled:t.enabled,value:t.feature_state_value}})),i.forEach((function(t){l[t.trait_key.toLowerCase().replace(/ /g,"_")]=t.trait_value})),e.oldFlags=a({},e.flags);var c=u(e.flags,o),h=u(e.traits,l);if(e.flags=o,e.traits=l,e.updateStorage(),e.datadogRum)try{if(e.datadogRum.trackTraits){var g={};Object.keys(e.traits).map((function(t){g[m+t]=e.getTrait(t)}));var f=a(a(a({},e.datadogRum.client.getUser()),{id:e.datadogRum.client.getUser().id||e.identity}),g);e.log("Setting Datadog user",f),e.datadogRum.client.setUser(f)}}catch(t){console.error(t)}if(e.dtrum)try{var v={javaDouble:{},date:{},shortString:{},javaLongOrObject:{}};Object.keys(e.flags).map((function(t){E(v,d+t,e.getValue(t,{},!0)),E(v,p+t,e.hasFeature(t,!0))})),Object.keys(e.traits).map((function(t){E(v,m+t,e.getTrait(t))})),e.log("Sending javaLongOrObject traits to dynatrace",v.javaLongOrObject),e.log("Sending date traits to dynatrace",v.date),e.log("Sending shortString traits to dynatrace",v.shortString),e.log("Sending javaDouble to dynatrace",v.javaDouble),e.dtrum.sendSessionProperties(v.javaLongOrObject,v.date,v.shortString,v.javaDouble)}catch(t){console.error(t)}r&&r(e.oldFlags,{isFromServer:!0,flagsChanged:!c,traitsChanged:!h})};return s?Promise.all([e.withTraits?e.getJSON(l+"identities/","POST",JSON.stringify({identifier:s,traits:Object.keys(e.withTraits).map((function(t){return{trait_key:t,trait_value:e.withTraits[t]}})).filter((function(t){return void 0!==t.trait_value||(e.log("Warning - attempted to set an undefined trait value for key",t.trait_key),!1)}))})):e.getJSON(l+"identities/?identifier="+encodeURIComponent(s))]).then((function(n){e.withTraits=null,h(n[0]),t&&!c&&(c=!0,t())})).catch((function(t){var n=t.message;e.isLoading=!1,o&&o(new Error(n))})):Promise.all([e.getJSON(l+"flags/")]).then((function(e){h({flags:e[0],traits:void 0}),t&&!c&&(c=!0,t())})).catch((function(t){e.isLoading=!1,n&&!c&&(c=!0,n(t)),o&&o(t)}))},this.analyticsFlags=function(){var t=e.api;if(e.evaluationEvent&&e.evaluationEvent[e.environmentID])return e.evaluationEvent&&0!==Object.getOwnPropertyNames(e.evaluationEvent).length&&0!==Object.getOwnPropertyNames(e.evaluationEvent[e.environmentID]).length?e.getJSON(t+"analytics/flags/","POST",JSON.stringify(e.evaluationEvent[e.environmentID])).then((function(t){var n=e.getState();e.evaluationEvent||(e.evaluationEvent={}),e.evaluationEvent[e.environmentID]={},e.setState(a(a({},n),{evaluationEvent:e.evaluationEvent})),e.updateEventStorage()})).catch((function(t){e.log("Exception fetching evaluationEvent",t)})):void 0},this.datadogRum=null,this.canUseStorage=!1,this.analyticsInterval=null,this.api=null,this.cacheFlags=!1,this.ts=null,this.enableAnalytics=!1,this.enableLogs=!1,this.environmentID="",this.evaluationEvent=null,this.flags=null,this.getFlagInterval=null,this.headers=null,this.initialised=!1,this.oldFlags=null,this.onChange=null,this.onError=null,this.trigger=null,this.identity=null,this.ticks=null,this.timer=null,this.traits=null,this.dtrum=null,this.withTraits=null,this.cacheOptions={ttl:0,skipAPI:!1},this.evaluateFlag=function(t,n){if(e.datadogRum&&(e.datadogRum.client.addFeatureFlagEvaluation?(e.log("Sending feature flag evaluation to Datadog",t,n),"VALUE"===n?e.datadogRum.client.addFeatureFlagEvaluation(d+t,e.getValue(t,{},!0)):e.datadogRum.client.addFeatureFlagEvaluation(p+t,e.hasFeature(t,!0))):console.error("Flagsmith: Your datadog RUM client does not support the function addFeatureFlagEvaluation, please update it.")),e.enableAnalytics){if(!e.evaluationEvent)return;e.evaluationEvent[e.environmentID]||(e.evaluationEvent[e.environmentID]={}),void 0===e.evaluationEvent[e.environmentID][t]&&(e.evaluationEvent[e.environmentID][t]=0),e.evaluationEvent[e.environmentID][t]+=1}e.updateEventStorage()},this.getValue=function(t,n,i){var r=e.flags&&e.flags[t.toLowerCase().replace(/ /g,"_")],a=null;if(r&&(a=r.value),i||e.evaluateFlag(t,"VALUE"),null==n?void 0:n.json)try{return null===a?(e.log("Tried to parse null flag as JSON: "+t),n.fallback):JSON.parse(a)}catch(t){return n.fallback}return a},this.getTrait=function(t){return e.traits&&e.traits[t.toLowerCase().replace(/ /g,"_")]},this.getAllTraits=function(){return e.traits},this.setTrait=function(t,n){if(e.api){var i={};return i[t]=n,e.setTraits(i)}console.error(v("setTrait"))},this.setTraits=function(t){if(e.api){if(t&&"object"==typeof t||console.error("Expected object for flagsmith.setTraits"),e.withTraits=a(a({},e.withTraits||{}),t),e.identity)return e.initialised?e.getFlags():void 0;e.log("Set traits prior to identifying",e.withTraits)}else console.error(v("setTraits"))},this.hasFeature=function(t,n){var i=e.flags&&e.flags[t.toLowerCase().replace(/ /g,"_")],r=!1;return i&&i.enabled&&(r=!0),n||e.evaluateFlag(t,"ENABLED"),r},s=t.fetch?t.fetch:"undefined"!=typeof fetch?fetch:null===__webpack_require__.g||void 0===__webpack_require__.g?void 0:__webpack_require__.g.fetch,this.canUseStorage="undefined"!=typeof window||!!t.browserlessStorage,this.log("Constructing flagsmith instance "+t),t.eventSource&&(l=t.eventSource),t.AsyncStorage&&(c=t.AsyncStorage)}return t.prototype.init=function(t){var e=this,n=t.environmentID,i=t.api,r=void 0===i?f:i,o=t.headers,u=t.onChange,v=t.cacheFlags,d=t.datadogRum,p=t.onError,m=t.defaultFlags,y=t.fetch,S=t.preventFetch,_=t.enableLogs,E=t.enableDynatrace,b=t.enableAnalytics,w=t.realtime,I=t.eventSourceUrl,O=void 0===I?"https://realtime.flagsmith.com/":I,F=t.AsyncStorage,C=t.identity,T=t.traits,j=t._trigger,A=t.state,P=t.cacheOptions,L=t.angularHttpClient;return new Promise((function(t,i){if(e.environmentID=n,e.api=r,e.headers=o,e.getFlagInterval=null,e.analyticsInterval=null,e.onChange=function(t,n){u&&u(t,n),e.trigger&&(e.log("trigger called"),e.trigger())},e.trigger=j||e.trigger,e.onError=p?function(t){t instanceof Error?p(t):p(new Error(t))}:null,e.identity=C,e.withTraits=T,e.enableLogs=_||!1,e.cacheOptions=P?{skipAPI:!!P.skipAPI,ttl:P.ttl||0}:e.cacheOptions,!e.cacheOptions.ttl&&e.cacheOptions.skipAPI&&console.warn("Flagsmith: you have set a cache ttl of 0 and are skipping API calls, this means the API will not be hit unless you clear local storage."),y&&(s=y),e.enableAnalytics=b||!1,e.flags=Object.assign({},m)||{},e.initialised=!0,e.ticks=1e4,w&&"undefined"!=typeof window){var f=O+"sse/environments/"+n+"/stream";l?e.eventSource||(e.log("Creating event source with url "+f),e.eventSource=new l(f),e.eventSource.addEventListener("environment_updated",(function(t){var n;try{n=JSON.parse(t.data).updated_at}catch(t){e.log("Could not parse sse event",t)}n?!e.timestamp||n>e.timestamp?e.isLoading?e.log("updated_at is new, but flags are loading",t.data,e.timestamp):(e.log("updated_at is new, fetching flags",t.data,e.timestamp),e.getFlags()):e.log("updated_at is outdated, skipping get flags",t.data,e.timestamp):e.log("No updated_at received, fetching flags",t)}))):e.log("Error, EventSource is undefined")}if(e.log("Initialising with properties",{environmentID:n,api:r,headers:o,onChange:u,cacheFlags:v,onError:p,defaultFlags:m,preventFetch:S,enableLogs:_,enableAnalytics:b,AsyncStorage:c,identity:C,traits:T,_trigger:j,state:A,angularHttpClient:L},e),e.timer=e.enableLogs?(new Date).valueOf():null,F&&(c=F),e.cacheFlags=void 0!==c&&!!v,e.setState(A),!n)throw i("Please specify a environment id"),"Please specify a environment id";d&&(e.datadogRum=d),E&&("undefined"==typeof dtrum?console.error("You have attempted to enable dynatrace but dtrum is undefined, please check you have the Dynatrace RUM JavaScript API installed."):e.dtrum=dtrum),L&&(s=function(t,e){var n=e.headers,i=e.method,r=e.body;return new Promise((function(e){switch(i){case"GET":return L.get(t,{headers:n}).subscribe((function(t){e({ok:!0,text:function(){return Promise.resolve(t)}})}));case"POST":case"PUT":return L.post(t,r,{headers:n}).subscribe((function(t){e({ok:!0,text:function(){return Promise.resolve(t)}})}))}}))}),c&&e.canUseStorage&&c.getItem(g).then((function(t){if(t)try{e.evaluationEvent=JSON.parse(t)}catch(t){e.evaluationEvent={}}else e.evaluationEvent={};return e.analyticsInterval=setInterval(e.analyticsFlags,e.ticks),!0})),e.enableAnalytics&&(e.analyticsInterval&&clearInterval(e.analyticsInterval),c&&e.canUseStorage&&c.getItem(g,(function(t,n){if(n){var i=JSON.parse(n);i[e.environmentID]&&(A=e.getState(),e.log("Retrieved events from cache",n),e.setState(a(a({},A),{evaluationEvent:i[e.environmentID]})))}return!0}))),v?c&&e.canUseStorage&&c.getItem(h,(function(n,r){if(r)try{var a=JSON.parse(r),o=!1;if(a&&a.api===e.api&&a.environmentID===e.environmentID){var s=!0;e.identity&&a.identity!==e.identity&&(e.log("Ignoring cache,  identity has changed from "+a.identity+" to "+e.identity),s=!1),e.cacheOptions.ttl&&(!a.ts||(new Date).valueOf()-a.ts>e.cacheOptions.ttl)&&a.ts&&(e.log("Ignoring cache, timestamp is too old ts:"+a.ts+" ttl: "+e.cacheOptions.ttl+" time elapsed since cache: "+((new Date).valueOf()-a.ts)+"ms"),s=!1),s&&(o=!0,e.setState(a),e.log("Retrieved flags from cache",a))}e.flags?(e.onChange&&(e.log("onChange called"),e.onChange(null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits})),e.oldFlags=e.flags,t(!0),e.cacheOptions.skipAPI&&o&&e.log("Skipping API, using cache"),S||e.cacheOptions.skipAPI&&o||e.getFlags()):S?t(!0):e.getFlags(t,i)}catch(t){e.log("Exception fetching cached logs",t)}else S?(m&&e.onChange&&(e.log("onChange called"),e.onChange(null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits})),t(!0)):e.getFlags(t,i);return!0})):S?(m&&e.onChange&&(e.log("onChange called"),e.onChange(null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits})),t(!0)):e.getFlags(t,i)})).catch((function(t){e.log("Error during initialisation ",t),p&&p(t)}))},t.prototype.getAllFlags=function(){return this.flags},t.prototype.identify=function(t,e){return this.identity=t,this.log("Identify: "+this.identity),e&&(this.withTraits=a(a({},this.withTraits||{}),e)),this.initialised?this.getFlags():Promise.resolve()},t.prototype.getState=function(){return{api:this.api,environmentID:this.environmentID,flags:this.flags,identity:this.identity,ts:this.ts,traits:this.traits,evaluationEvent:this.evaluationEvent}},t.prototype.setState=function(t){t&&(this.initialised=!0,this.api=t.api||this.api||f,this.environmentID=t.environmentID||this.environmentID,this.flags=t.flags||this.flags,this.identity=t.identity||this.identity,this.traits=t.traits||this.traits,this.evaluationEvent=t.evaluationEvent||this.evaluationEvent,this.log("setState called",this))},t.prototype.log=function(){for(var t=[],e=0;e<arguments.length;e++)t[e]=arguments[e];this.enableLogs&&console.log.apply(this,o(["FLAGSMITH:",(new Date).valueOf()-(this.timer||0),"ms"],t,!0))},t.prototype.updateStorage=function(){if(this.cacheFlags){this.ts=(new Date).valueOf();var t=JSON.stringify(this.getState());this.log("Setting storage",t),c.setItem(h,t)}},t.prototype.updateEventStorage=function(){if(this.enableAnalytics){var t=JSON.stringify(this.getState().evaluationEvent);this.log("Setting event storage",t),c.setItem(g,t)}},t.prototype.logout=function(){return this.identity=null,this.traits=null,this.initialised?this.getFlags():Promise.resolve()},t.prototype.startListening=function(t){void 0===t&&(t=1e3),this.getFlagInterval&&clearInterval(this.getFlagInterval),this.getFlagInterval=setInterval(this.getFlags,t)},t.prototype.stopListening=function(){this.getFlagInterval&&(clearInterval(this.getFlagInterval),this.getFlagInterval=null)},t.prototype.getSegments=function(){},t}();function S(t){var e=t.fetch,n=t.AsyncStorage,i=t.eventSource;return new y({fetch:e,AsyncStorage:n,eventSource:i})}var _,E=function(t,e,n){var i="shortString",r=!0;"number"==typeof n&&(i="javaDouble",r=!1),t[i]=t[i]||{},t[i][e]=r?n+"":n},b=(_=function(t,e){return _=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=e[n])},_(t,e)},function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Class extends value "+String(e)+" is not a constructor or null");function n(){this.constructor=t}_(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}),w=function(t){var e="function"==typeof Symbol&&Symbol.iterator,n=e&&t[e],i=0;if(n)return n.call(t);if(t&&"number"==typeof t.length)return{next:function(){return t&&i>=t.length&&(t=void 0),{value:t&&t[i++],done:!t}}};throw new TypeError(e?"Object is not iterable.":"Symbol.iterator is not defined.")},I=function(t,e){var n="function"==typeof Symbol&&t[Symbol.iterator];if(!n)return t;var i,r,a=n.call(t),o=[];try{for(;(void 0===e||e-- >0)&&!(i=a.next()).done;)o.push(i.value)}catch(t){r={error:t}}finally{try{i&&!i.done&&(n=a.return)&&n.call(a)}finally{if(r)throw r.error}}return o},O=function(t,e,n){if(n||2===arguments.length)for(var i,r=0,a=e.length;r<a;r++)!i&&r in e||(i||(i=Array.prototype.slice.call(e,0,r)),i[r]=e[r]);return t.concat(i||Array.prototype.slice.call(e))},F=function(t){function e(){return t.call(this,"EventSource not available.\nConsider loading an EventSource polyfill and making it available globally as EventSource, or passing one in as eventSourceClass to the ReconnectingEventSource constructor.")||this}return b(e,t),e}(Error),C=function(){function t(t,e){var n=this;if(this.CONNECTING=0,this.OPEN=1,this.CLOSED=2,this._configuration=null!=e?Object.assign({},e):void 0,this.withCredentials=!1,this._eventSource=null,this._lastEventId=null,this._timer=null,this._listeners={open:[],error:[],message:[]},this.url=t.toString(),this.readyState=this.CONNECTING,this.max_retry_time=3e3,this.eventSourceClass=globalThis.FlagsmithEventSource,null!=this._configuration&&(this._configuration.lastEventId&&(this._lastEventId=this._configuration.lastEventId,delete this._configuration.lastEventId),this._configuration.max_retry_time&&(this.max_retry_time=this._configuration.max_retry_time,delete this._configuration.max_retry_time),this._configuration.eventSourceClass&&(this.eventSourceClass=this._configuration.eventSourceClass,delete this._configuration.eventSourceClass)),null==this.eventSourceClass||"function"!=typeof this.eventSourceClass)throw new F;this._onevent_wrapped=function(t){n._onevent(t)},this._start()}return t.prototype.dispatchEvent=function(t){throw new Error("Method not implemented.")},t.prototype._start=function(){var t,e,n=this,i=this.url;this._lastEventId&&(-1===i.indexOf("?")?i+="?":i+="&",i+="lastEventId="+encodeURIComponent(this._lastEventId)),this._eventSource=new this.eventSourceClass(i,this._configuration),this._eventSource.onopen=function(t){n._onopen(t)},this._eventSource.onerror=function(t){n._onerror(t)},this._eventSource.onmessage=function(t){n.onmessage(t)};try{for(var r=w(Object.keys(this._listeners)),a=r.next();!a.done;a=r.next()){var o=a.value;this._eventSource.addEventListener(o,this._onevent_wrapped)}}catch(e){t={error:e}}finally{try{a&&!a.done&&(e=r.return)&&e.call(r)}finally{if(t)throw t.error}}},t.prototype._onopen=function(t){0===this.readyState&&(this.readyState=1,this.onopen(t))},t.prototype._onerror=function(t){var e=this;if(1===this.readyState&&(this.readyState=0,this.onerror(t)),this._eventSource){this._eventSource.close(),this._eventSource=null;var n=Math.round(this.max_retry_time*Math.random());this._timer=setTimeout((function(){return e._start()}),n)}},t.prototype._onevent=function(t){var e,n;t&&t.lastEventId&&(this._lastEventId=t.lastEventId);var i=this._listeners[t.type];if(null!=i)try{for(var r=w(O([],I(i),!1)),a=r.next();!a.done;a=r.next()){a.value.call(this,t)}}catch(t){e={error:t}}finally{try{a&&!a.done&&(n=r.return)&&n.call(r)}finally{if(e)throw e.error}}"message"===t.type&&this.onmessage(t)},t.prototype.onopen=function(t){},t.prototype.onerror=function(t){},t.prototype.onmessage=function(t){},t.prototype.close=function(){this._timer&&(clearTimeout(this._timer),this._timer=null),this._eventSource&&(this._eventSource.close(),this._eventSource=null),this.readyState=2},t.prototype.addEventListener=function(t,e,n){null==this._listeners[t]&&(this._listeners[t]=[],null!=this._eventSource&&this._eventSource.addEventListener(t,this._onevent_wrapped));var i=this._listeners[t];i.includes(e)||(this._listeners[t]=O(O([],I(i),!1),[e],!1))},t.prototype.removeEventListener=function(t,e,n){var i=this._listeners[t];this._listeners[t]=i.filter((function(t){return t!==e}))},t}();globalThis.FlagsmithEventSource="undefined"!=typeof EventSource?EventSource:null;var T=function(t,e){return e=e||{},new Promise((function(n,i){var r=new XMLHttpRequest,a=[],o=[],s={},l=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(r.responseText).then(JSON.parse)},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:l,headers:{keys:function(){return a},entries:function(){return o},get:function(t){return s[t.toLowerCase()]},has:function(t){return t.toLowerCase()in s}}}};for(var u in r.open(e.method||"get",t,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,(function(t,e,n){a.push(e=e.toLowerCase()),o.push([e,n]),s[e]=s[e]?s[e]+","+n:n})),n(l())},r.onerror=i,r.withCredentials="include"==e.credentials,e.headers)r.setRequestHeader(u,e.headers[u]);r.send(e.body||null)}))},j=S({AsyncStorage:r,fetch:T,eventSource:C});"undefined"!=typeof window&&(window.flagsmith=j);t.createFlagsmithInstance=function(){return S({AsyncStorage:r,fetch:T,eventSource:C})},t.default=j,Object.defineProperty(t,"__esModule",{value:!0})}));
+!function(t,e){ true?e(exports):0}(this,(function(t){"use strict";var e={};Object.defineProperty(e,"__esModule",{value:!0});var n=function(t,e){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return function(t,e){var n=[],i=!0,r=!1,a=void 0;try{for(var o,s=t[Symbol.iterator]();!(i=(o=s.next()).done)&&(n.push(o.value),!e||n.length!==e);i=!0);}catch(t){r=!0,a=t}finally{try{!i&&s.return&&s.return()}finally{if(r)throw a}}return n}(t,e);throw new TypeError("Invalid attempt to destructure non-iterable instance")},i={getItem:function(t,e){return i.multiGet([t]).then((function(t){return t[0][1]})).then((function(t){return e&&e(null,t),t})).catch((function(t){return e&&e(t,null),t}))},setItem:function(t,e,n){return i.multiSet([[t,e]]).then((function(t){return n&&n(null,t),t})).catch((function(t){return n&&n(t,null),t}))},getAllKeys:function(t){return Promise.resolve(Object.keys(localStorage)).then((function(e){return t&&t(null,e),e})).catch((function(e){return t&&t(e,null),e}))},removeItem:function(t,e){return i.multiRemove([t]).then((function(){e&&e(null)})).catch((function(t){e&&e(t,null)}))},clear:function(){return new Promise((function(t){window.localStorage.clear(),t()}))},multiGet:function(t){return new Promise((function(e){e(t.reduce((function(t,e){return t.concat([[e,localStorage.getItem(e)]])}),[]))}))},multiSet:function(t){return new Promise((function(e,i){var r=[];return t.forEach((function(t){var e=n(t,2),i=e[0],a=e[1];try{localStorage.setItem(i,a)}catch(t){r.push(t)}})),r.length>0?i(r):e()}))},multiRemove:function(t){return new Promise((function(e){t.forEach((function(t){return window.localStorage.removeItem(t)})),e()}))},flushGetRequests:function(){console.warn("AsyncStorage.flushGetRequests: Not supported on `web`")}},r=e.default=i,a=function(){return a=Object.assign||function(t){for(var e,n=1,i=arguments.length;n<i;n++)for(var r in e=arguments[n])Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r]);return t},a.apply(this,arguments)};function o(t,e,n){if(n||2===arguments.length)for(var i,r=0,a=e.length;r<a;r++)!i&&r in e||(i||(i=Array.prototype.slice.call(e,0,r)),i[r]=e[r]);return t.concat(i||Array.prototype.slice.call(e))}var s,l,u=function t(e,n){if(e===n)return!0;if(e&&n&&"object"==typeof e&&"object"==typeof n){if(e.constructor!==n.constructor)return!1;var i,r,a;if(Array.isArray(e)){if((i=e.length)!=n.length)return!1;for(r=i;0!=r--;)if(!t(e[r],n[r]))return!1;return!0}if(e.constructor===RegExp)return e.source===n.source&&e.flags===n.flags;if(e.valueOf!==Object.prototype.valueOf)return e.valueOf()===n.valueOf();if(e.toString!==Object.prototype.toString)return e.toString()===n.toString();if((i=(a=Object.keys(e)).length)!==Object.keys(n).length)return!1;for(r=i;0!=r--;)if(!Object.prototype.hasOwnProperty.call(n,a[r]))return!1;for(r=i;0!=r--;){var o=a[r];if(!t(e[o],n[o]))return!1}return!0}return e!=e&&n!=n};!function(t){t.NONE="NONE",t.DEFAULT_FLAGS="DEFAULT_FLAGS",t.CACHE="CACHE",t.SERVER="SERVER"}(s||(s={}));var c,g=null,h="BULLET_TRAIN_DB",f="BULLET_TRAIN_EVENT",d="https://edge.api.flagsmith.com/api/v1/",v=function(t){return"Attempted to "+t+" a user before calling flagsmith.init. Call flagsmith.init first, if you wish to prevent it sending a request for flags, call init with preventFetch:true."},p="flagsmith_value_",y="flagsmith_enabled_",m="flagsmith_trait_",S=function(){function t(t){var e=this;this._trigger=null,this._triggerLoadingState=null,this.timestamp=null,this.isLoading=!1,this.eventSource=null,this.getJSON=function(t,n,i){var r=e,a=r.environmentID,o=r.headers,s={method:n||"GET",body:i,headers:{"x-environment-key":"".concat(a)}};return n&&"GET"!==n&&(s.headers["Content-Type"]="application/json; charset=utf-8"),o&&Object.assign(s.headers,o),l||console.error("Flagsmith: fetch is undefined, please specify a fetch implementation into flagsmith.init to support SSR."),l(t,s).then((function(i){var r,a=null===(r=i.headers)||void 0===r?void 0:r.get("x-flagsmith-document-updated-at");if(a)try{var o=parseFloat(a);if(isNaN(o))throw"Failed to parse x-flagsmith-document-updated-at";e.timestamp=o}catch(t){e.log(t,"Failed to parse x-flagsmith-document-updated-at",a)}return e.log("Fetch response: "+i.status+" "+(n||"GET")+0+t),i.text().then((function(t){var e=t;try{e=JSON.parse(t)}catch(t){}return i.status&&i.status>=200&&i.status<300?e:Promise.reject(e)}))})).catch((function(t){throw console.error("Flagsmith: Fetch error: "+t),new Error("Flagsmith: Fetch error:"+t)}))},this.getFlags=function(t,n){var i=e,r=i.onChange,o=i.onError,l=i.identity,c=i.api,g=!1;e.log("Get Flags"),e.isLoading=!0,e.loadingState.isFetching||e.setLoadingState(a(a({},e.loadingState),{isFetching:!0}));var h=function(t){var n=t.flags,i=t.traits;e.isLoading=!1,l&&(e.withTraits=null);var o={},c={};i=i||[],(n=n||[]).forEach((function(t){o[t.feature.name.toLowerCase().replace(/ /g,"_")]={id:t.feature.id,enabled:t.enabled,value:t.feature_state_value}})),i.forEach((function(t){c[t.trait_key.toLowerCase().replace(/ /g,"_")]=t.trait_value})),e.oldFlags=a({},e.flags);var g=u(e.flags,o),h=u(e.traits,c);if(e.flags=o,e.traits=c,e.updateStorage(),e.datadogRum)try{if(e.datadogRum.trackTraits){var f={};Object.keys(e.traits).map((function(t){f[m+t]=e.getTrait(t)}));var d=a(a(a({},e.datadogRum.client.getUser()),{id:e.datadogRum.client.getUser().id||e.identity}),f);e.log("Setting Datadog user",d),e.datadogRum.client.setUser(d)}}catch(t){console.error(t)}if(e.dtrum)try{var v={javaDouble:{},date:{},shortString:{},javaLongOrObject:{}};Object.keys(e.flags).map((function(t){b(v,p+t,e.getValue(t,{},!0)),b(v,y+t,e.hasFeature(t,!0))})),Object.keys(e.traits).map((function(t){b(v,m+t,e.getTrait(t))})),e.log("Sending javaLongOrObject traits to dynatrace",v.javaLongOrObject),e.log("Sending date traits to dynatrace",v.date),e.log("Sending shortString traits to dynatrace",v.shortString),e.log("Sending javaDouble to dynatrace",v.javaDouble),e.dtrum.sendSessionProperties(v.javaLongOrObject,v.date,v.shortString,v.javaDouble)}catch(t){console.error(t)}r&&r(e.oldFlags,{isFromServer:!0,flagsChanged:!g,traitsChanged:!h},e._loadedState(s.SERVER))};return l?Promise.all([e.withTraits?e.getJSON(c+"identities/","POST",JSON.stringify({identifier:l,traits:Object.keys(e.withTraits).map((function(t){return{trait_key:t,trait_value:e.withTraits[t]}})).filter((function(t){return void 0!==t.trait_value||(e.log("Warning - attempted to set an undefined trait value for key",t.trait_key),!1)}))})):e.getJSON(c+"identities/?identifier="+encodeURIComponent(l))]).then((function(n){e.withTraits=null,h(n[0]),t&&!g&&(g=!0,t())})).catch((function(t){var n=t.message;e.isLoading=!1,o&&o(new Error(n))})):Promise.all([e.getJSON(c+"flags/")]).then((function(e){h({flags:e[0],traits:void 0}),t&&!g&&(g=!0,t())})).catch((function(t){e.isLoading=!1,n&&!g&&(g=!0,n(t)),o&&o(t)}))},this.analyticsFlags=function(){var t=e.api;if(e.evaluationEvent&&e.evaluationEvent[e.environmentID])return e.evaluationEvent&&0!==Object.getOwnPropertyNames(e.evaluationEvent).length&&0!==Object.getOwnPropertyNames(e.evaluationEvent[e.environmentID]).length?e.getJSON(t+"analytics/flags/","POST",JSON.stringify(e.evaluationEvent[e.environmentID])).then((function(t){var n=e.getState();e.evaluationEvent||(e.evaluationEvent={}),e.evaluationEvent[e.environmentID]={},e.setState(a(a({},n),{evaluationEvent:e.evaluationEvent})),e.updateEventStorage()})).catch((function(t){e.log("Exception fetching evaluationEvent",t)})):void 0},this.datadogRum=null,this.loadingState={isLoading:!0,isFetching:!0,error:null,source:s.NONE},this.canUseStorage=!1,this.analyticsInterval=null,this.api=null,this.cacheFlags=!1,this.ts=null,this.enableAnalytics=!1,this.enableLogs=!1,this.environmentID="",this.evaluationEvent=null,this.flags=null,this.getFlagInterval=null,this.headers=null,this.initialised=!1,this.oldFlags=null,this.onChange=null,this.onError=null,this.identity=null,this.ticks=null,this.timer=null,this.traits=null,this.dtrum=null,this.withTraits=null,this.cacheOptions={ttl:0,skipAPI:!1},this.evaluateFlag=function(t,n){if(e.datadogRum&&(e.datadogRum.client.addFeatureFlagEvaluation?(e.log("Sending feature flag evaluation to Datadog",t,n),"VALUE"===n?e.datadogRum.client.addFeatureFlagEvaluation(p+t,e.getValue(t,{},!0)):e.datadogRum.client.addFeatureFlagEvaluation(y+t,e.hasFeature(t,!0))):console.error("Flagsmith: Your datadog RUM client does not support the function addFeatureFlagEvaluation, please update it.")),e.enableAnalytics){if(!e.evaluationEvent)return;e.evaluationEvent[e.environmentID]||(e.evaluationEvent[e.environmentID]={}),void 0===e.evaluationEvent[e.environmentID][t]&&(e.evaluationEvent[e.environmentID][t]=0),e.evaluationEvent[e.environmentID][t]+=1}e.updateEventStorage()},this.getValue=function(t,n,i){var r=e.flags&&e.flags[t.toLowerCase().replace(/ /g,"_")],a=null;if(r&&(a=r.value),i||e.evaluateFlag(t,"VALUE"),null==n?void 0:n.json)try{return null===a?(e.log("Tried to parse null flag as JSON: "+t),n.fallback):JSON.parse(a)}catch(t){return n.fallback}return a},this.getTrait=function(t){return e.traits&&e.traits[t.toLowerCase().replace(/ /g,"_")]},this.getAllTraits=function(){return e.traits},this.setTrait=function(t,n){if(e.api){var i={};return i[t]=n,e.setTraits(i)}console.error(v("setTrait"))},this.setTraits=function(t){if(e.api){if(t&&"object"==typeof t||console.error("Expected object for flagsmith.setTraits"),e.withTraits=a(a({},e.withTraits||{}),t),e.identity)return e.initialised?e.getFlags():void 0;e.log("Set traits prior to identifying",e.withTraits)}else console.error(v("setTraits"))},this.hasFeature=function(t,n){var i=e.flags&&e.flags[t.toLowerCase().replace(/ /g,"_")],r=!1;return i&&i.enabled&&(r=!0),n||e.evaluateFlag(t,"ENABLED"),r},l=t.fetch?t.fetch:"undefined"!=typeof fetch?fetch:null===__webpack_require__.g||void 0===__webpack_require__.g?void 0:__webpack_require__.g.fetch,this.canUseStorage="undefined"!=typeof window||!!t.browserlessStorage,this.log("Constructing flagsmith instance "+t),t.eventSource&&(c=t.eventSource),t.AsyncStorage&&(g=t.AsyncStorage)}return t.prototype.init=function(t){var e=this,n=t.environmentID,i=t.api,r=void 0===i?d:i,o=t.headers,u=t.onChange,v=t.cacheFlags,p=t.datadogRum,y=t.onError,m=t.defaultFlags,S=t.fetch,_=t.preventFetch,E=t.enableLogs,b=t.enableDynatrace,w=t.enableAnalytics,O=t.realtime,I=t.eventSourceUrl,F=void 0===I?"https://realtime.flagsmith.com/":I,C=t.AsyncStorage,L=t.identity,A=t.traits,T=t.state,j=t.cacheOptions,D=t.angularHttpClient,P=t._trigger;return t._triggerLoadingStateChange,new Promise((function(t,i){var d;if(e.environmentID=n,e.api=r,e.headers=o,e.getFlagInterval=null,e.analyticsInterval=null,e.onChange=function(t,n,i){e.setLoadingState(i),u&&u(t,n,e.loadingState),e._trigger&&(e.log("trigger called"),e._trigger())},e._trigger=P||e._trigger,e.onError=y?function(t){t instanceof Error?y(t):y(new Error(t))}:null,e.identity=L,e.withTraits=A,e.enableLogs=E||!1,e.cacheOptions=j?{skipAPI:!!j.skipAPI,ttl:j.ttl||0}:e.cacheOptions,!e.cacheOptions.ttl&&e.cacheOptions.skipAPI&&console.warn("Flagsmith: you have set a cache ttl of 0 and are skipping API calls, this means the API will not be hit unless you clear local storage."),S&&(l=S),e.enableAnalytics=w||!1,e.flags=Object.assign({},m)||{},e.initialised=!0,e.ticks=1e4,Object.keys(e.flags).length&&(e.loadingState=a(a({},e.loadingState),{isLoading:!1,source:s.DEFAULT_FLAGS})),O&&"undefined"!=typeof window){var I=F+"sse/environments/"+n+"/stream";c?e.eventSource||(e.log("Creating event source with url "+I),e.eventSource=new c(I),e.eventSource.addEventListener("environment_updated",(function(t){var n;try{n=JSON.parse(t.data).updated_at}catch(t){e.log("Could not parse sse event",t)}n?!e.timestamp||n>e.timestamp?e.isLoading?e.log("updated_at is new, but flags are loading",t.data,e.timestamp):(e.log("updated_at is new, fetching flags",t.data,e.timestamp),e.getFlags()):e.log("updated_at is outdated, skipping get flags",t.data,e.timestamp):e.log("No updated_at received, fetching flags",t)}))):e.log("Error, EventSource is undefined")}if(e.log("Initialising with properties",{environmentID:n,api:r,headers:o,onChange:u,cacheFlags:v,onError:y,defaultFlags:m,preventFetch:_,enableLogs:E,enableAnalytics:w,AsyncStorage:g,identity:L,traits:A,_trigger:P,state:T,angularHttpClient:D},e),e.timer=e.enableLogs?(new Date).valueOf():null,C&&(g=C),e.cacheFlags=void 0!==g&&!!v,e.setState(T),!n)throw i("Please specify a environment id"),"Please specify a environment id";p&&(e.datadogRum=p),b&&("undefined"==typeof dtrum?console.error("You have attempted to enable dynatrace but dtrum is undefined, please check you have the Dynatrace RUM JavaScript API installed."):e.dtrum=dtrum),D&&(l=function(t,e){var n=e.headers,i=e.method,r=e.body;return new Promise((function(e){switch(i){case"GET":return D.get(t,{headers:n}).subscribe((function(t){e({ok:!0,text:function(){return Promise.resolve(t)}})}));case"POST":case"PUT":return D.post(t,r,{headers:n}).subscribe((function(t){e({ok:!0,text:function(){return Promise.resolve(t)}})}))}}))}),g&&e.canUseStorage&&g.getItem(f).then((function(t){if(t)try{e.evaluationEvent=JSON.parse(t)}catch(t){e.evaluationEvent={}}else e.evaluationEvent={};return e.analyticsInterval=setInterval(e.analyticsFlags,e.ticks),!0})),e.enableAnalytics&&(e.analyticsInterval&&clearInterval(e.analyticsInterval),g&&e.canUseStorage&&g.getItem(f,(function(t,n){if(n){var i=JSON.parse(n);i[e.environmentID]&&(T=e.getState(),e.log("Retrieved events from cache",n),e.setState(a(a({},T),{evaluationEvent:i[e.environmentID]})))}return!0}))),v?g&&e.canUseStorage&&g.getItem(h,(function(n,r){var a,o;if(r)try{var l=JSON.parse(r),u=!1;if(l&&l.api===e.api&&l.environmentID===e.environmentID){var c=!0;e.identity&&l.identity!==e.identity&&(e.log("Ignoring cache,  identity has changed from "+l.identity+" to "+e.identity),c=!1),e.cacheOptions.ttl&&(!l.ts||(new Date).valueOf()-l.ts>e.cacheOptions.ttl)&&l.ts&&(e.log("Ignoring cache, timestamp is too old ts:"+l.ts+" ttl: "+e.cacheOptions.ttl+" time elapsed since cache: "+((new Date).valueOf()-l.ts)+"ms"),c=!1),c&&(u=!0,e.setState(l),e.log("Retrieved flags from cache",l))}if(e.flags){var g=!(_||e.cacheOptions.skipAPI&&u);null===(a=e.onChange)||void 0===a||a.call(e,null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits},e._loadedState(s.CACHE,g)),e.oldFlags=e.flags,t(!0),e.cacheOptions.skipAPI&&u&&e.log("Skipping API, using cache"),g&&e.getFlags()}else _?t(!0):e.getFlags(t,i)}catch(t){e.log("Exception fetching cached logs",t)}else _?(m&&(null===(o=e.onChange)||void 0===o||o.call(e,null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits},e._loadedState(s.DEFAULT_FLAGS))),t(!0)):e.getFlags(t,i);return!0})):_?(m&&(null===(d=e.onChange)||void 0===d||d.call(e,null,{isFromServer:!1,flagsChanged:!0,traitsChanged:!!e.traits},e._loadedState(s.CACHE))),t(!0)):e.getFlags(t,i)})).catch((function(t){e.log("Error during initialisation ",t),y&&y(t)}))},t.prototype._loadedState=function(t,e){return void 0===e&&(e=!1),{error:null,isFetching:e,isLoading:!1,source:t}},t.prototype.getAllFlags=function(){return this.flags},t.prototype.identify=function(t,e){return this.identity=t,this.log("Identify: "+this.identity),e&&(this.withTraits=a(a({},this.withTraits||{}),e)),this.initialised?this.getFlags():Promise.resolve()},t.prototype.getState=function(){return{api:this.api,environmentID:this.environmentID,flags:this.flags,identity:this.identity,ts:this.ts,traits:this.traits,evaluationEvent:this.evaluationEvent}},t.prototype.setState=function(t){t&&(this.initialised=!0,this.api=t.api||this.api||d,this.environmentID=t.environmentID||this.environmentID,this.flags=t.flags||this.flags,this.identity=t.identity||this.identity,this.traits=t.traits||this.traits,this.evaluationEvent=t.evaluationEvent||this.evaluationEvent,this.log("setState called",this))},t.prototype.log=function(){for(var t=[],e=0;e<arguments.length;e++)t[e]=arguments[e];this.enableLogs&&console.log.apply(this,o(["FLAGSMITH:",(new Date).valueOf()-(this.timer||0),"ms"],t,!0))},t.prototype.updateStorage=function(){if(this.cacheFlags){this.ts=(new Date).valueOf();var t=JSON.stringify(this.getState());this.log("Setting storage",t),g.setItem(h,t)}},t.prototype.updateEventStorage=function(){if(this.enableAnalytics){var t=JSON.stringify(this.getState().evaluationEvent);this.log("Setting event storage",t),g.setItem(f,t)}},t.prototype.setLoadingState=function(t){var e;u(t,this.loadingState)||(this.loadingState=a({},t),this.log("Loading state changed",t),null===(e=this._triggerLoadingState)||void 0===e||e.call(this))},t.prototype.logout=function(){return this.identity=null,this.traits=null,this.initialised?this.getFlags():Promise.resolve()},t.prototype.startListening=function(t){void 0===t&&(t=1e3),this.getFlagInterval&&clearInterval(this.getFlagInterval),this.getFlagInterval=setInterval(this.getFlags,t)},t.prototype.stopListening=function(){this.getFlagInterval&&(clearInterval(this.getFlagInterval),this.getFlagInterval=null)},t.prototype.getSegments=function(){},t}();function _(t){var e=t.fetch,n=t.AsyncStorage,i=t.eventSource;return new S({fetch:e,AsyncStorage:n,eventSource:i})}var E,b=function(t,e,n){var i="shortString",r=!0;"number"==typeof n&&(i="javaDouble",r=!1),t[i]=t[i]||{},t[i][e]=r?n+"":n},w=(E=function(t,e){return E=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var n in e)Object.prototype.hasOwnProperty.call(e,n)&&(t[n]=e[n])},E(t,e)},function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Class extends value "+String(e)+" is not a constructor or null");function n(){this.constructor=t}E(t,e),t.prototype=null===e?Object.create(e):(n.prototype=e.prototype,new n)}),O=function(t){var e="function"==typeof Symbol&&Symbol.iterator,n=e&&t[e],i=0;if(n)return n.call(t);if(t&&"number"==typeof t.length)return{next:function(){return t&&i>=t.length&&(t=void 0),{value:t&&t[i++],done:!t}}};throw new TypeError(e?"Object is not iterable.":"Symbol.iterator is not defined.")},I=function(t,e){var n="function"==typeof Symbol&&t[Symbol.iterator];if(!n)return t;var i,r,a=n.call(t),o=[];try{for(;(void 0===e||e-- >0)&&!(i=a.next()).done;)o.push(i.value)}catch(t){r={error:t}}finally{try{i&&!i.done&&(n=a.return)&&n.call(a)}finally{if(r)throw r.error}}return o},F=function(t,e,n){if(n||2===arguments.length)for(var i,r=0,a=e.length;r<a;r++)!i&&r in e||(i||(i=Array.prototype.slice.call(e,0,r)),i[r]=e[r]);return t.concat(i||Array.prototype.slice.call(e))},C=function(t){function e(){return t.call(this,"EventSource not available.\nConsider loading an EventSource polyfill and making it available globally as EventSource, or passing one in as eventSourceClass to the ReconnectingEventSource constructor.")||this}return w(e,t),e}(Error),L=function(){function t(t,e){var n=this;if(this.CONNECTING=0,this.OPEN=1,this.CLOSED=2,this._configuration=null!=e?Object.assign({},e):void 0,this.withCredentials=!1,this._eventSource=null,this._lastEventId=null,this._timer=null,this._listeners={open:[],error:[],message:[]},this.url=t.toString(),this.readyState=this.CONNECTING,this.max_retry_time=3e3,this.eventSourceClass=globalThis.FlagsmithEventSource,null!=this._configuration&&(this._configuration.lastEventId&&(this._lastEventId=this._configuration.lastEventId,delete this._configuration.lastEventId),this._configuration.max_retry_time&&(this.max_retry_time=this._configuration.max_retry_time,delete this._configuration.max_retry_time),this._configuration.eventSourceClass&&(this.eventSourceClass=this._configuration.eventSourceClass,delete this._configuration.eventSourceClass)),null==this.eventSourceClass||"function"!=typeof this.eventSourceClass)throw new C;this._onevent_wrapped=function(t){n._onevent(t)},this._start()}return t.prototype.dispatchEvent=function(t){throw new Error("Method not implemented.")},t.prototype._start=function(){var t,e,n=this,i=this.url;this._lastEventId&&(-1===i.indexOf("?")?i+="?":i+="&",i+="lastEventId="+encodeURIComponent(this._lastEventId)),this._eventSource=new this.eventSourceClass(i,this._configuration),this._eventSource.onopen=function(t){n._onopen(t)},this._eventSource.onerror=function(t){n._onerror(t)},this._eventSource.onmessage=function(t){n.onmessage(t)};try{for(var r=O(Object.keys(this._listeners)),a=r.next();!a.done;a=r.next()){var o=a.value;this._eventSource.addEventListener(o,this._onevent_wrapped)}}catch(e){t={error:e}}finally{try{a&&!a.done&&(e=r.return)&&e.call(r)}finally{if(t)throw t.error}}},t.prototype._onopen=function(t){0===this.readyState&&(this.readyState=1,this.onopen(t))},t.prototype._onerror=function(t){var e=this;if(1===this.readyState&&(this.readyState=0,this.onerror(t)),this._eventSource){this._eventSource.close(),this._eventSource=null;var n=Math.round(this.max_retry_time*Math.random());this._timer=setTimeout((function(){return e._start()}),n)}},t.prototype._onevent=function(t){var e,n;t&&t.lastEventId&&(this._lastEventId=t.lastEventId);var i=this._listeners[t.type];if(null!=i)try{for(var r=O(F([],I(i),!1)),a=r.next();!a.done;a=r.next()){a.value.call(this,t)}}catch(t){e={error:t}}finally{try{a&&!a.done&&(n=r.return)&&n.call(r)}finally{if(e)throw e.error}}"message"===t.type&&this.onmessage(t)},t.prototype.onopen=function(t){},t.prototype.onerror=function(t){},t.prototype.onmessage=function(t){},t.prototype.close=function(){this._timer&&(clearTimeout(this._timer),this._timer=null),this._eventSource&&(this._eventSource.close(),this._eventSource=null),this.readyState=2},t.prototype.addEventListener=function(t,e,n){null==this._listeners[t]&&(this._listeners[t]=[],null!=this._eventSource&&this._eventSource.addEventListener(t,this._onevent_wrapped));var i=this._listeners[t];i.includes(e)||(this._listeners[t]=F(F([],I(i),!1),[e],!1))},t.prototype.removeEventListener=function(t,e,n){var i=this._listeners[t];this._listeners[t]=i.filter((function(t){return t!==e}))},t}();globalThis.FlagsmithEventSource="undefined"!=typeof EventSource?EventSource:null;var A=function(t,e){return e=e||{},new Promise((function(n,i){var r=new XMLHttpRequest,a=[],o=[],s={},l=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(r.responseText).then(JSON.parse)},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:l,headers:{keys:function(){return a},entries:function(){return o},get:function(t){return s[t.toLowerCase()]},has:function(t){return t.toLowerCase()in s}}}};for(var u in r.open(e.method||"get",t,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,(function(t,e,n){a.push(e=e.toLowerCase()),o.push([e,n]),s[e]=s[e]?s[e]+","+n:n})),n(l())},r.onerror=i,r.withCredentials="include"==e.credentials,e.headers)r.setRequestHeader(u,e.headers[u]);r.send(e.body||null)}))},T=_({AsyncStorage:r,fetch:A,eventSource:L});"undefined"!=typeof window&&(window.flagsmith=T);t.createFlagsmithInstance=function(){return _({AsyncStorage:r,fetch:A,eventSource:L})},t.default=T,Object.defineProperty(t,"__esModule",{value:!0})}));
 //# sourceMappingURL=index.js.map
 
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "makeRecipeClickChart": () => (/* binding */ makeRecipeClickChart)
+/* harmony export */   makeRecipeClickChart: () => (/* binding */ makeRecipeClickChart)
 /* harmony export */ });
-/* harmony import */ var chart_js_auto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
+/* harmony import */ var chart_js_auto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(13);
 /* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
 /* harmony import */ var _recipes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(10);
 
@@ -1806,62 +1792,62 @@ const splitRecipeName = recipeName => {
 
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Animation": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Animation),
-/* harmony export */   "Animations": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Animations),
-/* harmony export */   "ArcElement": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.ArcElement),
-/* harmony export */   "BarController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BarController),
-/* harmony export */   "BarElement": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BarElement),
-/* harmony export */   "BasePlatform": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BasePlatform),
-/* harmony export */   "BasicPlatform": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BasicPlatform),
-/* harmony export */   "BubbleController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BubbleController),
-/* harmony export */   "CategoryScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.CategoryScale),
-/* harmony export */   "Chart": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Chart),
-/* harmony export */   "Colors": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Colors),
-/* harmony export */   "DatasetController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DatasetController),
-/* harmony export */   "Decimation": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Decimation),
-/* harmony export */   "DomPlatform": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DomPlatform),
-/* harmony export */   "DoughnutController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DoughnutController),
-/* harmony export */   "Element": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Element),
-/* harmony export */   "Filler": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Filler),
-/* harmony export */   "Interaction": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Interaction),
-/* harmony export */   "Legend": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Legend),
-/* harmony export */   "LineController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LineController),
-/* harmony export */   "LineElement": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LineElement),
-/* harmony export */   "LinearScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LinearScale),
-/* harmony export */   "LogarithmicScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LogarithmicScale),
-/* harmony export */   "PieController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PieController),
-/* harmony export */   "PointElement": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PointElement),
-/* harmony export */   "PolarAreaController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PolarAreaController),
-/* harmony export */   "RadarController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.RadarController),
-/* harmony export */   "RadialLinearScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.RadialLinearScale),
-/* harmony export */   "Scale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Scale),
-/* harmony export */   "ScatterController": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.ScatterController),
-/* harmony export */   "SubTitle": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.SubTitle),
-/* harmony export */   "Ticks": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Ticks),
-/* harmony export */   "TimeScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.TimeScale),
-/* harmony export */   "TimeSeriesScale": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.TimeSeriesScale),
-/* harmony export */   "Title": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Title),
-/* harmony export */   "Tooltip": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Tooltip),
-/* harmony export */   "_adapters": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__._adapters),
-/* harmony export */   "_detectPlatform": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__._detectPlatform),
-/* harmony export */   "animator": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.animator),
-/* harmony export */   "controllers": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.controllers),
+/* harmony export */   Animation: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Animation),
+/* harmony export */   Animations: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Animations),
+/* harmony export */   ArcElement: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.ArcElement),
+/* harmony export */   BarController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BarController),
+/* harmony export */   BarElement: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BarElement),
+/* harmony export */   BasePlatform: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BasePlatform),
+/* harmony export */   BasicPlatform: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BasicPlatform),
+/* harmony export */   BubbleController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.BubbleController),
+/* harmony export */   CategoryScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.CategoryScale),
+/* harmony export */   Chart: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Chart),
+/* harmony export */   Colors: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Colors),
+/* harmony export */   DatasetController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DatasetController),
+/* harmony export */   Decimation: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Decimation),
+/* harmony export */   DomPlatform: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DomPlatform),
+/* harmony export */   DoughnutController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.DoughnutController),
+/* harmony export */   Element: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Element),
+/* harmony export */   Filler: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Filler),
+/* harmony export */   Interaction: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Interaction),
+/* harmony export */   Legend: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Legend),
+/* harmony export */   LineController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LineController),
+/* harmony export */   LineElement: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LineElement),
+/* harmony export */   LinearScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LinearScale),
+/* harmony export */   LogarithmicScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.LogarithmicScale),
+/* harmony export */   PieController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PieController),
+/* harmony export */   PointElement: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PointElement),
+/* harmony export */   PolarAreaController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.PolarAreaController),
+/* harmony export */   RadarController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.RadarController),
+/* harmony export */   RadialLinearScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.RadialLinearScale),
+/* harmony export */   Scale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Scale),
+/* harmony export */   ScatterController: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.ScatterController),
+/* harmony export */   SubTitle: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.SubTitle),
+/* harmony export */   Ticks: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Ticks),
+/* harmony export */   TimeScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.TimeScale),
+/* harmony export */   TimeSeriesScale: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.TimeSeriesScale),
+/* harmony export */   Title: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Title),
+/* harmony export */   Tooltip: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Tooltip),
+/* harmony export */   _adapters: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__._adapters),
+/* harmony export */   _detectPlatform: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__._detectPlatform),
+/* harmony export */   animator: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.animator),
+/* harmony export */   controllers: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.controllers),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "defaults": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.defaults),
-/* harmony export */   "elements": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.elements),
-/* harmony export */   "layouts": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.layouts),
-/* harmony export */   "plugins": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.plugins),
-/* harmony export */   "registerables": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.registerables),
-/* harmony export */   "registry": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.registry),
-/* harmony export */   "scales": () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.scales)
+/* harmony export */   defaults: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.defaults),
+/* harmony export */   elements: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.elements),
+/* harmony export */   layouts: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.layouts),
+/* harmony export */   plugins: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.plugins),
+/* harmony export */   registerables: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.registerables),
+/* harmony export */   registry: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.registry),
+/* harmony export */   scales: () => (/* reexport safe */ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.scales)
 /* harmony export */ });
-/* harmony import */ var _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
+/* harmony import */ var _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(14);
 
 
 _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Chart.register(..._dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.registerables);
@@ -1871,61 +1857,61 @@ _dist_chart_js__WEBPACK_IMPORTED_MODULE_0__.Chart.register(..._dist_chart_js__WE
 
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Animation": () => (/* binding */ Animation),
-/* harmony export */   "Animations": () => (/* binding */ Animations),
-/* harmony export */   "ArcElement": () => (/* binding */ ArcElement),
-/* harmony export */   "BarController": () => (/* binding */ BarController),
-/* harmony export */   "BarElement": () => (/* binding */ BarElement),
-/* harmony export */   "BasePlatform": () => (/* binding */ BasePlatform),
-/* harmony export */   "BasicPlatform": () => (/* binding */ BasicPlatform),
-/* harmony export */   "BubbleController": () => (/* binding */ BubbleController),
-/* harmony export */   "CategoryScale": () => (/* binding */ CategoryScale),
-/* harmony export */   "Chart": () => (/* binding */ Chart),
-/* harmony export */   "Colors": () => (/* binding */ plugin_colors),
-/* harmony export */   "DatasetController": () => (/* binding */ DatasetController),
-/* harmony export */   "Decimation": () => (/* binding */ plugin_decimation),
-/* harmony export */   "DomPlatform": () => (/* binding */ DomPlatform),
-/* harmony export */   "DoughnutController": () => (/* binding */ DoughnutController),
-/* harmony export */   "Element": () => (/* binding */ Element),
-/* harmony export */   "Filler": () => (/* binding */ index),
-/* harmony export */   "Interaction": () => (/* binding */ Interaction),
-/* harmony export */   "Legend": () => (/* binding */ plugin_legend),
-/* harmony export */   "LineController": () => (/* binding */ LineController),
-/* harmony export */   "LineElement": () => (/* binding */ LineElement),
-/* harmony export */   "LinearScale": () => (/* binding */ LinearScale),
-/* harmony export */   "LogarithmicScale": () => (/* binding */ LogarithmicScale),
-/* harmony export */   "PieController": () => (/* binding */ PieController),
-/* harmony export */   "PointElement": () => (/* binding */ PointElement),
-/* harmony export */   "PolarAreaController": () => (/* binding */ PolarAreaController),
-/* harmony export */   "RadarController": () => (/* binding */ RadarController),
-/* harmony export */   "RadialLinearScale": () => (/* binding */ RadialLinearScale),
-/* harmony export */   "Scale": () => (/* binding */ Scale),
-/* harmony export */   "ScatterController": () => (/* binding */ ScatterController),
-/* harmony export */   "SubTitle": () => (/* binding */ plugin_subtitle),
-/* harmony export */   "Ticks": () => (/* reexport safe */ _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__.aL),
-/* harmony export */   "TimeScale": () => (/* binding */ TimeScale),
-/* harmony export */   "TimeSeriesScale": () => (/* binding */ TimeSeriesScale),
-/* harmony export */   "Title": () => (/* binding */ plugin_title),
-/* harmony export */   "Tooltip": () => (/* binding */ plugin_tooltip),
-/* harmony export */   "_adapters": () => (/* binding */ adapters),
-/* harmony export */   "_detectPlatform": () => (/* binding */ _detectPlatform),
-/* harmony export */   "animator": () => (/* binding */ animator),
-/* harmony export */   "controllers": () => (/* binding */ controllers),
-/* harmony export */   "defaults": () => (/* reexport safe */ _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__.d),
-/* harmony export */   "elements": () => (/* binding */ elements),
-/* harmony export */   "layouts": () => (/* binding */ layouts),
-/* harmony export */   "plugins": () => (/* binding */ plugins),
-/* harmony export */   "registerables": () => (/* binding */ registerables),
-/* harmony export */   "registry": () => (/* binding */ registry),
-/* harmony export */   "scales": () => (/* binding */ scales)
+/* harmony export */   Animation: () => (/* binding */ Animation),
+/* harmony export */   Animations: () => (/* binding */ Animations),
+/* harmony export */   ArcElement: () => (/* binding */ ArcElement),
+/* harmony export */   BarController: () => (/* binding */ BarController),
+/* harmony export */   BarElement: () => (/* binding */ BarElement),
+/* harmony export */   BasePlatform: () => (/* binding */ BasePlatform),
+/* harmony export */   BasicPlatform: () => (/* binding */ BasicPlatform),
+/* harmony export */   BubbleController: () => (/* binding */ BubbleController),
+/* harmony export */   CategoryScale: () => (/* binding */ CategoryScale),
+/* harmony export */   Chart: () => (/* binding */ Chart),
+/* harmony export */   Colors: () => (/* binding */ plugin_colors),
+/* harmony export */   DatasetController: () => (/* binding */ DatasetController),
+/* harmony export */   Decimation: () => (/* binding */ plugin_decimation),
+/* harmony export */   DomPlatform: () => (/* binding */ DomPlatform),
+/* harmony export */   DoughnutController: () => (/* binding */ DoughnutController),
+/* harmony export */   Element: () => (/* binding */ Element),
+/* harmony export */   Filler: () => (/* binding */ index),
+/* harmony export */   Interaction: () => (/* binding */ Interaction),
+/* harmony export */   Legend: () => (/* binding */ plugin_legend),
+/* harmony export */   LineController: () => (/* binding */ LineController),
+/* harmony export */   LineElement: () => (/* binding */ LineElement),
+/* harmony export */   LinearScale: () => (/* binding */ LinearScale),
+/* harmony export */   LogarithmicScale: () => (/* binding */ LogarithmicScale),
+/* harmony export */   PieController: () => (/* binding */ PieController),
+/* harmony export */   PointElement: () => (/* binding */ PointElement),
+/* harmony export */   PolarAreaController: () => (/* binding */ PolarAreaController),
+/* harmony export */   RadarController: () => (/* binding */ RadarController),
+/* harmony export */   RadialLinearScale: () => (/* binding */ RadialLinearScale),
+/* harmony export */   Scale: () => (/* binding */ Scale),
+/* harmony export */   ScatterController: () => (/* binding */ ScatterController),
+/* harmony export */   SubTitle: () => (/* binding */ plugin_subtitle),
+/* harmony export */   Ticks: () => (/* reexport safe */ _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__.aL),
+/* harmony export */   TimeScale: () => (/* binding */ TimeScale),
+/* harmony export */   TimeSeriesScale: () => (/* binding */ TimeSeriesScale),
+/* harmony export */   Title: () => (/* binding */ plugin_title),
+/* harmony export */   Tooltip: () => (/* binding */ plugin_tooltip),
+/* harmony export */   _adapters: () => (/* binding */ adapters),
+/* harmony export */   _detectPlatform: () => (/* binding */ _detectPlatform),
+/* harmony export */   animator: () => (/* binding */ animator),
+/* harmony export */   controllers: () => (/* binding */ controllers),
+/* harmony export */   defaults: () => (/* reexport safe */ _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__.d),
+/* harmony export */   elements: () => (/* binding */ elements),
+/* harmony export */   layouts: () => (/* binding */ layouts),
+/* harmony export */   plugins: () => (/* binding */ plugins),
+/* harmony export */   registerables: () => (/* binding */ registerables),
+/* harmony export */   registry: () => (/* binding */ registry),
+/* harmony export */   scales: () => (/* binding */ scales)
 /* harmony export */ });
-/* harmony import */ var _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
+/* harmony import */ var _chunks_helpers_segment_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /*!
  * Chart.js v4.3.0
  * https://www.chartjs.org
@@ -13353,139 +13339,139 @@ const registerables = [
 
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "$": () => (/* binding */ unclipArea),
-/* harmony export */   "A": () => (/* binding */ _rlookupByKey),
-/* harmony export */   "B": () => (/* binding */ _lookupByKey),
-/* harmony export */   "C": () => (/* binding */ _isPointInArea),
-/* harmony export */   "D": () => (/* binding */ getAngleFromPoint),
-/* harmony export */   "E": () => (/* binding */ toPadding),
-/* harmony export */   "F": () => (/* binding */ each),
-/* harmony export */   "G": () => (/* binding */ getMaximumSize),
-/* harmony export */   "H": () => (/* binding */ HALF_PI),
-/* harmony export */   "I": () => (/* binding */ _getParentNode),
-/* harmony export */   "J": () => (/* binding */ readUsedSize),
-/* harmony export */   "K": () => (/* binding */ supportsEventListenerOptions),
-/* harmony export */   "L": () => (/* binding */ throttled),
-/* harmony export */   "M": () => (/* binding */ _isDomSupported),
-/* harmony export */   "N": () => (/* binding */ _factorize),
-/* harmony export */   "O": () => (/* binding */ finiteOrDefault),
-/* harmony export */   "P": () => (/* binding */ PI),
-/* harmony export */   "Q": () => (/* binding */ callback),
-/* harmony export */   "R": () => (/* binding */ _addGrace),
-/* harmony export */   "S": () => (/* binding */ _limitValue),
-/* harmony export */   "T": () => (/* binding */ TAU),
-/* harmony export */   "U": () => (/* binding */ toDegrees),
-/* harmony export */   "V": () => (/* binding */ _measureText),
-/* harmony export */   "W": () => (/* binding */ _int16Range),
-/* harmony export */   "X": () => (/* binding */ _alignPixel),
-/* harmony export */   "Y": () => (/* binding */ clipArea),
-/* harmony export */   "Z": () => (/* binding */ renderText),
-/* harmony export */   "_": () => (/* binding */ _arrayUnique),
-/* harmony export */   "a": () => (/* binding */ resolve),
-/* harmony export */   "a$": () => (/* binding */ fontString),
-/* harmony export */   "a0": () => (/* binding */ toFont),
-/* harmony export */   "a1": () => (/* binding */ _toLeftRightCenter),
-/* harmony export */   "a2": () => (/* binding */ _alignStartEnd),
-/* harmony export */   "a3": () => (/* binding */ overrides),
-/* harmony export */   "a4": () => (/* binding */ merge),
-/* harmony export */   "a5": () => (/* binding */ _capitalize),
-/* harmony export */   "a6": () => (/* binding */ descriptors),
-/* harmony export */   "a7": () => (/* binding */ isFunction),
-/* harmony export */   "a8": () => (/* binding */ _attachContext),
-/* harmony export */   "a9": () => (/* binding */ _createResolver),
-/* harmony export */   "aA": () => (/* binding */ overrideTextDirection),
-/* harmony export */   "aB": () => (/* binding */ _textX),
-/* harmony export */   "aC": () => (/* binding */ restoreTextDirection),
-/* harmony export */   "aD": () => (/* binding */ drawPointLegend),
-/* harmony export */   "aE": () => (/* binding */ distanceBetweenPoints),
-/* harmony export */   "aF": () => (/* binding */ noop),
-/* harmony export */   "aG": () => (/* binding */ _setMinAndMaxByKey),
-/* harmony export */   "aH": () => (/* binding */ niceNum),
-/* harmony export */   "aI": () => (/* binding */ almostWhole),
-/* harmony export */   "aJ": () => (/* binding */ almostEquals),
-/* harmony export */   "aK": () => (/* binding */ _decimalPlaces),
-/* harmony export */   "aL": () => (/* binding */ Ticks),
-/* harmony export */   "aM": () => (/* binding */ log10),
-/* harmony export */   "aN": () => (/* binding */ _longestText),
-/* harmony export */   "aO": () => (/* binding */ _filterBetween),
-/* harmony export */   "aP": () => (/* binding */ _lookup),
-/* harmony export */   "aQ": () => (/* binding */ isPatternOrGradient),
-/* harmony export */   "aR": () => (/* binding */ getHoverColor),
-/* harmony export */   "aS": () => (/* binding */ clone),
-/* harmony export */   "aT": () => (/* binding */ _merger),
-/* harmony export */   "aU": () => (/* binding */ _mergerIf),
-/* harmony export */   "aV": () => (/* binding */ _deprecated),
-/* harmony export */   "aW": () => (/* binding */ _splitKey),
-/* harmony export */   "aX": () => (/* binding */ toFontString),
-/* harmony export */   "aY": () => (/* binding */ splineCurve),
-/* harmony export */   "aZ": () => (/* binding */ splineCurveMonotone),
-/* harmony export */   "a_": () => (/* binding */ getStyle),
-/* harmony export */   "aa": () => (/* binding */ _descriptors),
-/* harmony export */   "ab": () => (/* binding */ mergeIf),
-/* harmony export */   "ac": () => (/* binding */ uid),
-/* harmony export */   "ad": () => (/* binding */ debounce),
-/* harmony export */   "ae": () => (/* binding */ retinaScale),
-/* harmony export */   "af": () => (/* binding */ clearCanvas),
-/* harmony export */   "ag": () => (/* binding */ setsEqual),
-/* harmony export */   "ah": () => (/* binding */ _elementsEqual),
-/* harmony export */   "ai": () => (/* binding */ _isClickEvent),
-/* harmony export */   "aj": () => (/* binding */ _isBetween),
-/* harmony export */   "ak": () => (/* binding */ _readValueToProps),
-/* harmony export */   "al": () => (/* binding */ _updateBezierControlPoints),
-/* harmony export */   "am": () => (/* binding */ _computeSegments),
-/* harmony export */   "an": () => (/* binding */ _boundSegments),
-/* harmony export */   "ao": () => (/* binding */ _steppedInterpolation),
-/* harmony export */   "ap": () => (/* binding */ _bezierInterpolation),
-/* harmony export */   "aq": () => (/* binding */ _pointInLine),
-/* harmony export */   "ar": () => (/* binding */ _steppedLineTo),
-/* harmony export */   "as": () => (/* binding */ _bezierCurveTo),
-/* harmony export */   "at": () => (/* binding */ drawPoint),
-/* harmony export */   "au": () => (/* binding */ addRoundedRectPath),
-/* harmony export */   "av": () => (/* binding */ toTRBL),
-/* harmony export */   "aw": () => (/* binding */ toTRBLCorners),
-/* harmony export */   "ax": () => (/* binding */ _boundSegment),
-/* harmony export */   "ay": () => (/* binding */ _normalizeAngle),
-/* harmony export */   "az": () => (/* binding */ getRtlAdapter),
-/* harmony export */   "b": () => (/* binding */ isArray),
-/* harmony export */   "b0": () => (/* binding */ toLineHeight),
-/* harmony export */   "b1": () => (/* binding */ PITAU),
-/* harmony export */   "b2": () => (/* binding */ INFINITY),
-/* harmony export */   "b3": () => (/* binding */ RAD_PER_DEG),
-/* harmony export */   "b4": () => (/* binding */ QUARTER_PI),
-/* harmony export */   "b5": () => (/* binding */ TWO_THIRDS_PI),
-/* harmony export */   "b6": () => (/* binding */ _angleDiff),
-/* harmony export */   "c": () => (/* binding */ color),
-/* harmony export */   "d": () => (/* binding */ defaults),
-/* harmony export */   "e": () => (/* binding */ effects),
-/* harmony export */   "f": () => (/* binding */ resolveObjectKey),
-/* harmony export */   "g": () => (/* binding */ isNumberFinite),
-/* harmony export */   "h": () => (/* binding */ defined),
-/* harmony export */   "i": () => (/* binding */ isObject),
-/* harmony export */   "j": () => (/* binding */ createContext),
-/* harmony export */   "k": () => (/* binding */ isNullOrUndef),
-/* harmony export */   "l": () => (/* binding */ listenArrayEvents),
-/* harmony export */   "m": () => (/* binding */ toPercentage),
-/* harmony export */   "n": () => (/* binding */ toDimension),
-/* harmony export */   "o": () => (/* binding */ formatNumber),
-/* harmony export */   "p": () => (/* binding */ _angleBetween),
-/* harmony export */   "q": () => (/* binding */ _getStartAndCountOfVisiblePoints),
-/* harmony export */   "r": () => (/* binding */ requestAnimFrame),
-/* harmony export */   "s": () => (/* binding */ sign),
-/* harmony export */   "t": () => (/* binding */ toRadians),
-/* harmony export */   "u": () => (/* binding */ unlistenArrayEvents),
-/* harmony export */   "v": () => (/* binding */ valueOrDefault),
-/* harmony export */   "w": () => (/* binding */ _scaleRangesChanged),
-/* harmony export */   "x": () => (/* binding */ isNumber),
-/* harmony export */   "y": () => (/* binding */ _parseObjectDataRadialScale),
-/* harmony export */   "z": () => (/* binding */ getRelativePosition)
+/* harmony export */   $: () => (/* binding */ unclipArea),
+/* harmony export */   A: () => (/* binding */ _rlookupByKey),
+/* harmony export */   B: () => (/* binding */ _lookupByKey),
+/* harmony export */   C: () => (/* binding */ _isPointInArea),
+/* harmony export */   D: () => (/* binding */ getAngleFromPoint),
+/* harmony export */   E: () => (/* binding */ toPadding),
+/* harmony export */   F: () => (/* binding */ each),
+/* harmony export */   G: () => (/* binding */ getMaximumSize),
+/* harmony export */   H: () => (/* binding */ HALF_PI),
+/* harmony export */   I: () => (/* binding */ _getParentNode),
+/* harmony export */   J: () => (/* binding */ readUsedSize),
+/* harmony export */   K: () => (/* binding */ supportsEventListenerOptions),
+/* harmony export */   L: () => (/* binding */ throttled),
+/* harmony export */   M: () => (/* binding */ _isDomSupported),
+/* harmony export */   N: () => (/* binding */ _factorize),
+/* harmony export */   O: () => (/* binding */ finiteOrDefault),
+/* harmony export */   P: () => (/* binding */ PI),
+/* harmony export */   Q: () => (/* binding */ callback),
+/* harmony export */   R: () => (/* binding */ _addGrace),
+/* harmony export */   S: () => (/* binding */ _limitValue),
+/* harmony export */   T: () => (/* binding */ TAU),
+/* harmony export */   U: () => (/* binding */ toDegrees),
+/* harmony export */   V: () => (/* binding */ _measureText),
+/* harmony export */   W: () => (/* binding */ _int16Range),
+/* harmony export */   X: () => (/* binding */ _alignPixel),
+/* harmony export */   Y: () => (/* binding */ clipArea),
+/* harmony export */   Z: () => (/* binding */ renderText),
+/* harmony export */   _: () => (/* binding */ _arrayUnique),
+/* harmony export */   a: () => (/* binding */ resolve),
+/* harmony export */   a$: () => (/* binding */ fontString),
+/* harmony export */   a0: () => (/* binding */ toFont),
+/* harmony export */   a1: () => (/* binding */ _toLeftRightCenter),
+/* harmony export */   a2: () => (/* binding */ _alignStartEnd),
+/* harmony export */   a3: () => (/* binding */ overrides),
+/* harmony export */   a4: () => (/* binding */ merge),
+/* harmony export */   a5: () => (/* binding */ _capitalize),
+/* harmony export */   a6: () => (/* binding */ descriptors),
+/* harmony export */   a7: () => (/* binding */ isFunction),
+/* harmony export */   a8: () => (/* binding */ _attachContext),
+/* harmony export */   a9: () => (/* binding */ _createResolver),
+/* harmony export */   aA: () => (/* binding */ overrideTextDirection),
+/* harmony export */   aB: () => (/* binding */ _textX),
+/* harmony export */   aC: () => (/* binding */ restoreTextDirection),
+/* harmony export */   aD: () => (/* binding */ drawPointLegend),
+/* harmony export */   aE: () => (/* binding */ distanceBetweenPoints),
+/* harmony export */   aF: () => (/* binding */ noop),
+/* harmony export */   aG: () => (/* binding */ _setMinAndMaxByKey),
+/* harmony export */   aH: () => (/* binding */ niceNum),
+/* harmony export */   aI: () => (/* binding */ almostWhole),
+/* harmony export */   aJ: () => (/* binding */ almostEquals),
+/* harmony export */   aK: () => (/* binding */ _decimalPlaces),
+/* harmony export */   aL: () => (/* binding */ Ticks),
+/* harmony export */   aM: () => (/* binding */ log10),
+/* harmony export */   aN: () => (/* binding */ _longestText),
+/* harmony export */   aO: () => (/* binding */ _filterBetween),
+/* harmony export */   aP: () => (/* binding */ _lookup),
+/* harmony export */   aQ: () => (/* binding */ isPatternOrGradient),
+/* harmony export */   aR: () => (/* binding */ getHoverColor),
+/* harmony export */   aS: () => (/* binding */ clone),
+/* harmony export */   aT: () => (/* binding */ _merger),
+/* harmony export */   aU: () => (/* binding */ _mergerIf),
+/* harmony export */   aV: () => (/* binding */ _deprecated),
+/* harmony export */   aW: () => (/* binding */ _splitKey),
+/* harmony export */   aX: () => (/* binding */ toFontString),
+/* harmony export */   aY: () => (/* binding */ splineCurve),
+/* harmony export */   aZ: () => (/* binding */ splineCurveMonotone),
+/* harmony export */   a_: () => (/* binding */ getStyle),
+/* harmony export */   aa: () => (/* binding */ _descriptors),
+/* harmony export */   ab: () => (/* binding */ mergeIf),
+/* harmony export */   ac: () => (/* binding */ uid),
+/* harmony export */   ad: () => (/* binding */ debounce),
+/* harmony export */   ae: () => (/* binding */ retinaScale),
+/* harmony export */   af: () => (/* binding */ clearCanvas),
+/* harmony export */   ag: () => (/* binding */ setsEqual),
+/* harmony export */   ah: () => (/* binding */ _elementsEqual),
+/* harmony export */   ai: () => (/* binding */ _isClickEvent),
+/* harmony export */   aj: () => (/* binding */ _isBetween),
+/* harmony export */   ak: () => (/* binding */ _readValueToProps),
+/* harmony export */   al: () => (/* binding */ _updateBezierControlPoints),
+/* harmony export */   am: () => (/* binding */ _computeSegments),
+/* harmony export */   an: () => (/* binding */ _boundSegments),
+/* harmony export */   ao: () => (/* binding */ _steppedInterpolation),
+/* harmony export */   ap: () => (/* binding */ _bezierInterpolation),
+/* harmony export */   aq: () => (/* binding */ _pointInLine),
+/* harmony export */   ar: () => (/* binding */ _steppedLineTo),
+/* harmony export */   as: () => (/* binding */ _bezierCurveTo),
+/* harmony export */   at: () => (/* binding */ drawPoint),
+/* harmony export */   au: () => (/* binding */ addRoundedRectPath),
+/* harmony export */   av: () => (/* binding */ toTRBL),
+/* harmony export */   aw: () => (/* binding */ toTRBLCorners),
+/* harmony export */   ax: () => (/* binding */ _boundSegment),
+/* harmony export */   ay: () => (/* binding */ _normalizeAngle),
+/* harmony export */   az: () => (/* binding */ getRtlAdapter),
+/* harmony export */   b: () => (/* binding */ isArray),
+/* harmony export */   b0: () => (/* binding */ toLineHeight),
+/* harmony export */   b1: () => (/* binding */ PITAU),
+/* harmony export */   b2: () => (/* binding */ INFINITY),
+/* harmony export */   b3: () => (/* binding */ RAD_PER_DEG),
+/* harmony export */   b4: () => (/* binding */ QUARTER_PI),
+/* harmony export */   b5: () => (/* binding */ TWO_THIRDS_PI),
+/* harmony export */   b6: () => (/* binding */ _angleDiff),
+/* harmony export */   c: () => (/* binding */ color),
+/* harmony export */   d: () => (/* binding */ defaults),
+/* harmony export */   e: () => (/* binding */ effects),
+/* harmony export */   f: () => (/* binding */ resolveObjectKey),
+/* harmony export */   g: () => (/* binding */ isNumberFinite),
+/* harmony export */   h: () => (/* binding */ defined),
+/* harmony export */   i: () => (/* binding */ isObject),
+/* harmony export */   j: () => (/* binding */ createContext),
+/* harmony export */   k: () => (/* binding */ isNullOrUndef),
+/* harmony export */   l: () => (/* binding */ listenArrayEvents),
+/* harmony export */   m: () => (/* binding */ toPercentage),
+/* harmony export */   n: () => (/* binding */ toDimension),
+/* harmony export */   o: () => (/* binding */ formatNumber),
+/* harmony export */   p: () => (/* binding */ _angleBetween),
+/* harmony export */   q: () => (/* binding */ _getStartAndCountOfVisiblePoints),
+/* harmony export */   r: () => (/* binding */ requestAnimFrame),
+/* harmony export */   s: () => (/* binding */ sign),
+/* harmony export */   t: () => (/* binding */ toRadians),
+/* harmony export */   u: () => (/* binding */ unlistenArrayEvents),
+/* harmony export */   v: () => (/* binding */ valueOrDefault),
+/* harmony export */   w: () => (/* binding */ _scaleRangesChanged),
+/* harmony export */   x: () => (/* binding */ isNumber),
+/* harmony export */   y: () => (/* binding */ _parseObjectDataRadialScale),
+/* harmony export */   z: () => (/* binding */ getRelativePosition)
 /* harmony export */ });
-/* harmony import */ var _kurkle_color__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(17);
+/* harmony import */ var _kurkle_color__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(16);
 /*!
  * Chart.js v4.3.0
  * https://www.chartjs.org
@@ -16232,33 +16218,33 @@ function styleChanged(style, prevStyle) {
 
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Color": () => (/* binding */ Color),
-/* harmony export */   "b2n": () => (/* binding */ b2n),
-/* harmony export */   "b2p": () => (/* binding */ b2p),
+/* harmony export */   Color: () => (/* binding */ Color),
+/* harmony export */   b2n: () => (/* binding */ b2n),
+/* harmony export */   b2p: () => (/* binding */ b2p),
 /* harmony export */   "default": () => (/* binding */ index_esm),
-/* harmony export */   "hexParse": () => (/* binding */ hexParse),
-/* harmony export */   "hexString": () => (/* binding */ hexString),
-/* harmony export */   "hsl2rgb": () => (/* binding */ hsl2rgb),
-/* harmony export */   "hslString": () => (/* binding */ hslString),
-/* harmony export */   "hsv2rgb": () => (/* binding */ hsv2rgb),
-/* harmony export */   "hueParse": () => (/* binding */ hueParse),
-/* harmony export */   "hwb2rgb": () => (/* binding */ hwb2rgb),
-/* harmony export */   "lim": () => (/* binding */ lim),
-/* harmony export */   "n2b": () => (/* binding */ n2b),
-/* harmony export */   "n2p": () => (/* binding */ n2p),
-/* harmony export */   "nameParse": () => (/* binding */ nameParse),
-/* harmony export */   "p2b": () => (/* binding */ p2b),
-/* harmony export */   "rgb2hsl": () => (/* binding */ rgb2hsl),
-/* harmony export */   "rgbParse": () => (/* binding */ rgbParse),
-/* harmony export */   "rgbString": () => (/* binding */ rgbString),
-/* harmony export */   "rotate": () => (/* binding */ rotate),
-/* harmony export */   "round": () => (/* binding */ round)
+/* harmony export */   hexParse: () => (/* binding */ hexParse),
+/* harmony export */   hexString: () => (/* binding */ hexString),
+/* harmony export */   hsl2rgb: () => (/* binding */ hsl2rgb),
+/* harmony export */   hslString: () => (/* binding */ hslString),
+/* harmony export */   hsv2rgb: () => (/* binding */ hsv2rgb),
+/* harmony export */   hueParse: () => (/* binding */ hueParse),
+/* harmony export */   hwb2rgb: () => (/* binding */ hwb2rgb),
+/* harmony export */   lim: () => (/* binding */ lim),
+/* harmony export */   n2b: () => (/* binding */ n2b),
+/* harmony export */   n2p: () => (/* binding */ n2p),
+/* harmony export */   nameParse: () => (/* binding */ nameParse),
+/* harmony export */   p2b: () => (/* binding */ p2b),
+/* harmony export */   rgb2hsl: () => (/* binding */ rgb2hsl),
+/* harmony export */   rgbParse: () => (/* binding */ rgbParse),
+/* harmony export */   rgbString: () => (/* binding */ rgbString),
+/* harmony export */   rotate: () => (/* binding */ rotate),
+/* harmony export */   round: () => (/* binding */ round)
 /* harmony export */ });
 /*!
  * @kurkle/color v0.3.2
@@ -16852,7 +16838,7 @@ function index_esm(input) {
 
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16863,7 +16849,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/graph.png");
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16874,7 +16860,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/delete.png");
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16885,7 +16871,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/refresh.png");
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16896,7 +16882,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/antipasti.png");
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16907,7 +16893,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/antipasto.png");
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16918,7 +16904,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/appetizer.png");
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16929,7 +16915,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/breakfast.png");
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16940,7 +16926,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/brunch.png");
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16951,7 +16937,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/condiment.png");
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16962,7 +16948,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/dinner.png");
 
 /***/ }),
-/* 28 */
+/* 27 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16973,7 +16959,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/dip.png");
 
 /***/ }),
-/* 29 */
+/* 28 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16984,7 +16970,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/hor d'oeuvre.png");
 
 /***/ }),
-/* 30 */
+/* 29 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -16995,7 +16981,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/lunch.png");
 
 /***/ }),
-/* 31 */
+/* 30 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17006,7 +16992,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/main course.png");
 
 /***/ }),
-/* 32 */
+/* 31 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17017,7 +17003,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/main dish.png");
 
 /***/ }),
-/* 33 */
+/* 32 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17028,7 +17014,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/morning meal.png");
 
 /***/ }),
-/* 34 */
+/* 33 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17039,7 +17025,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/salad.png");
 
 /***/ }),
-/* 35 */
+/* 34 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17050,7 +17036,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/sauce.png");
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17061,7 +17047,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/side dish.png");
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17072,7 +17058,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/snack.png");
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17083,7 +17069,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/spread.png");
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17094,7 +17080,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/starter.png");
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17105,7 +17091,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/search-button.png");
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17116,7 +17102,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/right-arrow.png");
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17127,7 +17113,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/left-arrow.png");
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17138,7 +17124,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("images/hollow-bookmark-icon.png");
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
